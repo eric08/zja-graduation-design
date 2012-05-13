@@ -1,0 +1,24 @@
+% Copyright (c) 2008-2009 solvethis
+% Copyright (c) 2010-2011 Casper Ti. Vector
+% Public domain.
+
+\begin{cabstract}
+
+	 由于3D播放设备的普及以及3D电影和电视的日益普及，将普通的视频转换为3D视频也成为了一个极其具有实用意义的研究课题。
+因为技术水平以及一些固有的难题，目前的3D视频转换仍然不可避免地要加入人工交互的操作使得生成的3D视频尽量逼近真实3D视频。
+但是现有已知的交互标注的工具，它们对于图像的标注部分无一例外基于传统PC，这对于提高标注效率是不利的。所以我们希望能够
+开发出一套基于触摸屏设备的标注工具，以提高标注工作的效率。
+在毕业设计的过程中，我以已有的标注模型和图像分割算法为基础，完成了基于触摸屏的图像三维信息标注工具的设计，并且基于Android
+移动平台开发了一款图像标注工具。
+
+\end{cabstract}
+
+\begin{eabstract}
+
+	This paper describes the the functions provided by
+	the \emph{pkuthss} document template,
+	and provides itself as an example to illustrate
+	the usage of the document class.
+
+\end{eabstract}
+
