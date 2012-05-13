@@ -1,0 +1,78 @@
+% Public domain.
+
+\documentclass[GBK]{pkuthss}
+
+% 使得打字机粗体可以被使用。
+\usepackage{lmodern}
+% 产生 originauth.tex 里的 \square。
+\usepackage{amssymb}
+% 提供 Verbatim 环境和 \VerbatimInput 命令。
+\usepackage{fancyvrb}
+% pkuthss 文档模版的版本。
+\newcommand{\docversion}{v1.3}
+
+% 参考文献格式。
+\bibliographystyle{ref/chinesebst-mod}
+% 设定文档的基本信息。
+\pkuthssinfo{
+	cthesisname={本科生毕业论文}, ethesisname={Undergraduate Thesis},
+	ctitle={基于触摸屏的3D图像\\标注工具设计},
+	% “\\”在设定 pdf 元数据时会被自动过滤掉，于是得到的 pdf 元数据中标题为
+	%   The PKU dissertation document classpkuthss [版本号]
+	% 此处指定其被替换为“: ”，以使之为
+	etitle={%
+		An Design For 3D Image Annotation Tool Based on Touch Screen
+	},
+	cauthor={张吉安},
+	eauthor={Zhangji'an},
+	studentid={00848160},
+	date={二〇一二年五月},
+	school={信息科学技术学院},
+	cmajor={计算机}, emajor={Computer Science}, direction={计算机应用技术},
+	cmentor={王亦洲}, ementor={Prof.Wang Yizhou},
+	ckeywords={触摸屏，3D，人机交互，Android},
+	ekeywords={Touch Screen, 3D, Human-Computer Interaction, Android},
+}
+
+\begin{document}
+	% 以下为正文之前的部分。
+	\frontmatter
+
+	% 自动生成标题页。
+	\maketitle
+	% 版权声明。
+	%\include{chap/copyright}
+	% 中英文摘要。
+	\include{chap/abstract}
+	% 自动生成目录。
+	\tableofcontents
+
+	% 以下为正文。
+	\mainmatter
+
+	% 绪言。
+	%\include{chap/introduction}
+	% 各章节。
+	\include{chap/chapter1}
+	%\include{chap/chap2}
+	%\include{chap/chap3}
+	% 结论。
+	%\include{chap/conclusion}
+
+	% 正文中的附录部分。
+	%\appendix
+	% 参考文献。
+	%\bibliography{ref/pkuthss}
+	% 各附录。
+	%\include{chap/encl1}
+	%\include{chap/encl2}
+
+	% 以下为正文之后的部分。
+	\backmatter
+
+	% 致谢。
+	%\include{chap/thanks}
+	% 原创性声明和使用授权说明。
+	%\include{chap/originauth}
+\end{document}
+

@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{dypang}
+dypang.
+\newblock 北京大学硕博论文模版（测试版）[Z], 2005.
+\newblock
+  \urlprefix\url{http://bdwm.net/a.php?b/Thesis/M.1112645491.A/D10F612.rar}
+
+\bibitem{FerretL}
+FerretL.
+\newblock 新的 pku 博士论文模板[Z], 2007.
+\newblock
+  \urlprefix\url{http://bdwm.net/a.php?b/Thesis/M.1174982168.A/4270722.rar}
+
+\bibitem{lwolf}
+lwolf.
+\newblock 学士(硕/博)毕业论文模板 [基于 dypang 的模板][Z], 2007.
+\newblock
+  \urlprefix\url{http://bdwm.net/a.php?b/MathTools/M.1179239165.A/5A2D5A2.rar}
+
+\bibitem{Langpku}
+Langpku.
+\newblock Re: 关于置底模版的问题和一些修改[Z], 2007.
+\newblock
+  \urlprefix\url{http://bdwm.net/a.php?b/MathTools/M.1180676700.A/DBB7810.zip}
+
+\bibitem{solvethis}
+solvethis.
+\newblock Re: 学位论文模板更新[Z], 2008.
+\newblock
+  \urlprefix\url{http://bdwm.net/a.php?b/Thesis/M.1205377509.A/9413ED2.rar}
+
+\bibitem{pku-copyright}
+北京大学研究生院.
+\newblock 北京大学学位论文版权声明(首页)[Z], 2010.
+\newblock
+  \urlprefix\url{http://grs.pku.edu.cn/document/20101110143928832634.doc}
+
+\bibitem{pku-originauth}
+北京大学研究生院.
+\newblock 北京大学学位论文原创性声明和使用授权说明(末页)[Z], 2010.
+\newblock
+  \urlprefix\url{http://grs.pku.edu.cn/document/20101110143844053593.doc}
+
+\bibitem{ctex}
+\texttt{ctex.org}.
+\newblock ctex 宏包说明[Z], 2010
+
+\bibitem{ctex-faq}
+吴凌云.
+\newblock \CTeX{} FAQ（常见问题集）[Z], 2007
+
+\bibitem{graphicx}
+D.{\ }P.{\ }Carlisle.
+\newblock Packages in the `graphics' bundle[Z], 2005
+
+\bibitem{geometry}
+Hideo Umeki.
+\newblock The \textsf{geometry} package[Z], 2010
+
+\bibitem{fancyhdr}
+Piet van Oostrum.
+\newblock Page layout in \LaTeX{}[Z], 2004
+
+\bibitem{natbib}
+Patrick W.{{\ }}Daly.
+\newblock Natural Sciences Citations and References[Z], 2010
+
+\bibitem{etoolbox}
+Philipp Lehman.
+\newblock The \texttt{etoolbox} package: An e-TeX Toolbox for Class and Package
+  Authors[Z], 2011
+
+\bibitem{footmisc}
+Robin Fairbairns.
+\newblock \texttt{footmisc} -- a portmanteau package for customising footnotes
+  in \LaTeX{}[Z], 2009
+
+\bibitem{enumitem}
+Javier Bezos.
+\newblock Customizing lists with the \textsf{enumitem} package[Z], 2009
+
+\bibitem{tocbibind}
+Peter Wilson, Herries Press, Will Robertson.
+\newblock The \textsf{tocbibind} package[Z], 2010
+
+\bibitem{pku-thesisstyle}
+北京大学研究生院.
+\newblock 北京大学研究生学位论文的基本要求与书写格式.
+\newblock 北京大学研究生手册, 北京大学, 2010. 27--32.
+\newblock
+  \urlprefix\url{http://grs.pku.edu.cn/document/20110104121030679471.doc}
+
+\end{thebibliography}

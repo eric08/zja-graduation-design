@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{titlepage.1}{封面}{}% 1
+\BOOKMARK [1][-]{cabstract.1}{摘要}{}% 2
+\BOOKMARK [1][-]{eabstract.1}{Abstract}{}% 3
+\BOOKMARK [1][-]{contents.1}{目录}{}% 4
+\BOOKMARK [0][-]{chapter.1}{项目介绍}{}% 5
+\BOOKMARK [1][-]{section.1.1}{视频3D转制现况及前景}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{项目背景}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{项目具体工作}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{系统设计概述}{}% 9
+\BOOKMARK [1][-]{section.2.1}{视频标注系统整体概述}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{视频帧交互式标注模块}{chapter.2}% 11
