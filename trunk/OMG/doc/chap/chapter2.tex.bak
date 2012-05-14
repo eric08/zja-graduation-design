@@ -3,14 +3,25 @@
     下图是一个成熟的视频标注系统的整体结构。
     \begin{figure}[htbp]
     \centering
-    \includegraphics{chap/figure/flow1_chapter1.pdf}
+    \includegraphics{img/chapter2/flow1.pdf}
     \caption{系统流程}\label{fig:puremass}
     \end{figure}
     可以看出，在一个视频标注系统中，已经存在完善且成熟的技术的有音视频分离和音视频同步部分，而镜头聚类分割和双目立体视频
     的生成也有了成熟的自动转换的技术。
-    
+
     所以实际上交互式的视频标注系统中的交互标注操作几乎都完全花费在单帧的标注操作上，事实上在我们已有的基于传统PC上的标注
     工具的使用中发现，除了视频的单帧标注之外，其余的操作可以完全地实现自动化。
-    
-    \section{视频帧交互式标注模型}
-    
+
+    \section{视频帧交互式标注模块}
+    单帧的交互式工具的目的是为了在单幅图像上标记出图像的深度信息，生成对应于图像的depth map。同时这也是本项目工作的重点。
+
+    目前针对视频帧的标注模块大致可以分为两个方面，分别为前景部分的深度标注和背景的深度标注。
+    其中背景的深度估计对于估计的准确度和物体互相之间的深度的把握较前景的要求要低，而前景的深度估计则在物体的深度变化和物体之间
+    的深度关系上和观影者的感受较为密切。也就是说，在背景的估计上我们可以使用较为粗略但是效率较高的方法，而在前景的标注上则要求
+    尽量能够反映前景物体的深度信息以带给观影者较为真实的3D观影感受。
+    \begin{figure}[htbp]
+    \centering
+    \includegraphics{img/chapter2/depth.pdf}
+    \caption{自动/手动深度估计的对比}\label{fig:puremass}
+    \end{figure}
+    目前可利用的背景估计的方法有两种，一种是利用Stage Model\cite{ctex}
