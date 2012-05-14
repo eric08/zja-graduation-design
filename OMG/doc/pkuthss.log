@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  13 MAY 2012 21:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  14 MAY 2012 11:18
 entering extended mode
 **pkuthss.tex
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.tex
+
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +15,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.cls
+
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+cls
 Document Class: pkuthss 2011/12/21 v1.3 Peking University dissertation document
  class
 (D:\CTEX\CTeX\tex\latex\ctex\ctexbook.cls
@@ -207,11 +211,11 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 \etb@tempcnta=\count104
 )
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss-extra.sty
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss-
+extra.sty
 Package: pkuthss-extra 2011/12/21 v1.3 Common extra settings for the pkuthss do
 cument class
-
-(D:\CTEX\MiKTeX\tex\latex\cjk\CJKspace.sty
+ (D:\CTEX\MiKTeX\tex\latex\cjk\CJKspace.sty
 Package: CJKspace 2008/12/29 3.8.0
 )
 (D:\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
@@ -260,11 +264,12 @@ less on input line 131.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 132.
 
-) (C:\Users\zhangjian\Desktop\OMG\doc\pkuthss-gbk.def
+)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss-
+gbk.def
 File: pkuthss-gbk.def 2011/12/21 v1.3 Labels and captions in GBK encoding for t
 he pkuthss document class
-)
-(D:\CTEX\MiKTeX\tex\latex\lm\lmodern.sty
+) (D:\CTEX\MiKTeX\tex\latex\lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -424,10 +429,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.aux
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/abstract.aux)
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter1.aux)
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter2.aux))
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+aux
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.aux
+
+LaTeX Warning: Label `fig:puremass' multiply defined.
+
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -509,8 +522,7 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
-
-(D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
+ (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
@@ -587,11 +599,12 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.out)
-(C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.out)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+out)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+out)
 \@outlinefile=\write4
-
-(D:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+ (D:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
 File: standard.bdg 2008/12/29 4.8.2
 )
 (D:\CTEX\MiKTeX\tex\latex\cjk\extended.enc
@@ -600,13 +613,13 @@ File: extended.enc 2008/12/29 4.8.2
 (D:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-<img/pkulogo.pdf, id=47, 401.5pt x 401.5pt>
+<img/pkulogo.pdf, id=51, 401.5pt x 401.5pt>
 File: img/pkulogo.pdf Graphic file (type pdf)
  <use img/pkulogo.pdf>
 Package pdftex.def Info: img/pkulogo.pdf used on input line 46.
 (pdftex.def)             Requested size: 43.31969pt x 43.32289pt.
 
-<img/pkuword.pdf, id=48, 526.96875pt x 150.5625pt>
+<img/pkuword.pdf, id=52, 526.96875pt x 150.5625pt>
 File: img/pkuword.pdf Graphic file (type pdf)
  <use img/pkuword.pdf>
 Package pdftex.def Info: img/pkuword.pdf used on input line 46.
@@ -659,9 +672,11 @@ File: c19zhkai.fd 2009/09/23 4.8.2
 
 
 
- <C:/Users/zhangjian/Desktop/OMG/doc/img/pkulogo.pdf> <C:/Users/zhangjian/Deskt
-op/OMG/doc/img/pkuword.pdf>]
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/abstract.tex
+ <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/pku
+logo.pdf> <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/do
+c/img/pkuword.pdf>]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.tex
 Package CJKpunct Info: punctuation spaces for family 'zhhei' do not exist. Use 
 family 'def' instead. on input line 15.
 
@@ -686,7 +701,9 @@ less on input line 46.
 [2
 
 
-] (C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.toc
+]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -702,7 +719,9 @@ less on input line 51.
 
 
 
-] (C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter1.tex
+]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.tex
 第一章
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
@@ -712,13 +731,15 @@ less on input line 18.
 
 
 
-] [2]) [3] (C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter2.tex
+] [2]) [3]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.tex
 第二章
-<chap/figure/flow1_chapter1.pdf, id=172, 451.6875pt x 292.84406pt>
-File: chap/figure/flow1_chapter1.pdf Graphic file (type pdf)
+<img/chapter2/flow1.pdf, id=177, 451.6875pt x 292.84406pt>
+File: img/chapter2/flow1.pdf Graphic file (type pdf)
 
-<use chap/figure/flow1_chapter1.pdf>
-Package pdftex.def Info: chap/figure/flow1_chapter1.pdf used on input line 6.
+<use img/chapter2/flow1.pdf>
+Package pdftex.def Info: img/chapter2/flow1.pdf used on input line 6.
 (pdftex.def)             Requested size: 451.68639pt x 292.84334pt.
 
 Overfull \hbox (24.89505pt too wide) in paragraph at lines 6--7
@@ -733,14 +754,42 @@ less on input line 14.
 
 
 
- <C:/Users/zhangjian/Desktop/OMG/doc/chap/figure/flow1_chapter1.pdf>])
-[5]
+ <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/cha
+pter2/flow1.pdf>]
+<img/chapter2/depth.pdf, id=197, 453.19313pt x 229.60782pt>
+File: img/chapter2/depth.pdf Graphic file (type pdf)
+
+<use img/chapter2/depth.pdf>
+Package pdftex.def Info: img/chapter2/depth.pdf used on input line 24.
+(pdftex.def)             Requested size: 453.19202pt x 229.60725pt.
+
+Overfull \hbox (26.40068pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+) [5 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter2/depth.pdf>]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+bbl)
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 71.
+
+[6
+
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
- (C:\Users\zhangjian\Desktop\OMG\doc\pkuthss.aux
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/abstract.aux)
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter1.aux)
-(C:\Users\zhangjian\Desktop\OMG\doc\chap/chapter2.aux))
+
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+aux
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 
@@ -750,20 +799,23 @@ Package rerunfilecheck Warning: File `pkuthss.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `pkuthss.out':
-(rerunfilecheck)             Before: 5C8CEC214EAFB59DBB00884012225C0F;1068
-(rerunfilecheck)             After:  30174747F15F49D78245AC86A026D3D9;580.
+(rerunfilecheck)             Before: 9F5D36FCAF32A8B420321BCEF6B8816F;1147
+(rerunfilecheck)             After:  2FF5D5E6DF6FF1B3377157E3487B7B6F;627.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 11116 strings out of 494045
- 170920 string characters out of 3153701
- 256878 words of memory out of 3000000
- 14055 multiletter control sequences out of 15000+200000
- 102373 words of font info for 215 fonts, out of 3000000 for 9000
+ 11144 strings out of 494045
+ 172840 string characters out of 3153701
+ 256947 words of memory out of 3000000
+ 14076 multiletter control sequences out of 15000+200000
+ 104161 words of font info for 221 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  47i,12n,50p,826b,925s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
-imhei.ttf><C:/Windows/Fonts/simhei.ttf>{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rm
-.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
+{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Windows/Fonts/simhei.ttf><C:
+/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
 s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
 ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
@@ -790,10 +842,11 @@ nts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
 ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
 f><C:/Windows/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx12.pfb
 ><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/pu
-blic/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on pkuthss.pdf (9 pages, 433547 bytes).
+blic/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiKT
+eX/fonts/type1/public/lm/lmr8.pfb>
+Output written on pkuthss.pdf (10 pages, 587959 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

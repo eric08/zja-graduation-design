@@ -1,6 +1,6 @@
 % Public domain.
 
-\documentclass[GBK]{pkuthss}
+\documentclass[GBK,oneside]{pkuthss}
 
 % 使得打字机粗体可以被使用。
 \usepackage{lmodern}
@@ -54,7 +54,7 @@
 	%\include{chap/introduction}
 	% 各章节。
 	\include{chap/chapter1}
-	%\include{chap/chap2}
+	\include{chap/chapter2}
 	%\include{chap/chap3}
 	% 结论。
 	%\include{chap/conclusion}
@@ -62,7 +62,7 @@
 	% 正文中的附录部分。
 	%\appendix
 	% 参考文献。
-	%\bibliography{ref/pkuthss}
+	\bibliography{ref/pkuthss}
 	% 各附录。
 	%\include{chap/encl1}
 	%\include{chap/encl2}
