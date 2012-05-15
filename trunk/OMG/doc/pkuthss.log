@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  14 MAY 2012 11:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  15 MAY 2012 15:46
 entering extended mode
 **pkuthss.tex
 
@@ -436,11 +436,9 @@ tract.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter1.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
-pter2.aux
-
-LaTeX Warning: Label `fig:puremass' multiply defined.
-
-))
+pter2.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -613,13 +611,13 @@ File: extended.enc 2008/12/29 4.8.2
 (D:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-<img/pkulogo.pdf, id=51, 401.5pt x 401.5pt>
+<img/pkulogo.pdf, id=63, 401.5pt x 401.5pt>
 File: img/pkulogo.pdf Graphic file (type pdf)
  <use img/pkulogo.pdf>
 Package pdftex.def Info: img/pkulogo.pdf used on input line 46.
 (pdftex.def)             Requested size: 43.31969pt x 43.32289pt.
 
-<img/pkuword.pdf, id=52, 526.96875pt x 150.5625pt>
+<img/pkuword.pdf, id=64, 526.96875pt x 150.5625pt>
 File: img/pkuword.pdf Graphic file (type pdf)
  <use img/pkuword.pdf>
 Package pdftex.def Info: img/pkuword.pdf used on input line 46.
@@ -735,7 +733,7 @@ less on input line 18.
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter2.tex
 ตฺถþีย
-<img/chapter2/flow1.pdf, id=177, 451.6875pt x 292.84406pt>
+<img/chapter2/flow1.pdf, id=194, 451.6875pt x 292.84406pt>
 File: img/chapter2/flow1.pdf Graphic file (type pdf)
 
 <use img/chapter2/flow1.pdf>
@@ -756,26 +754,69 @@ less on input line 14.
 
  <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/cha
 pter2/flow1.pdf>]
-<img/chapter2/depth.pdf, id=197, 453.19313pt x 229.60782pt>
+<img/chapter2/depth.pdf, id=214, 453.19313pt x 229.60782pt>
 File: img/chapter2/depth.pdf Graphic file (type pdf)
 
 <use img/chapter2/depth.pdf>
-Package pdftex.def Info: img/chapter2/depth.pdf used on input line 24.
+Package pdftex.def Info: img/chapter2/depth.pdf used on input line 25.
 (pdftex.def)             Requested size: 453.19202pt x 229.60725pt.
 
-Overfull \hbox (26.40068pt too wide) in paragraph at lines 24--25
+Overfull \hbox (26.40068pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [5 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
-/chapter2/depth.pdf>]
+[5 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
+hapter2/depth.pdf>]
+<img/chapter2/struct1.pdf, id=227, 430.60875pt x 155.07938pt>
+File: img/chapter2/struct1.pdf Graphic file (type pdf)
+
+<use img/chapter2/struct1.pdf>
+Package pdftex.def Info: img/chapter2/struct1.pdf used on input line 41.
+(pdftex.def)             Requested size: 430.60768pt x 155.07898pt.
+
+Overfull \hbox (3.81635pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 45.
+(D:\CTEX\MiKTeX\tex\latex\lm\omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12.05> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 45.
+
+Overfull \hbox (8.89171pt too wide) in paragraph at lines 47--50
+[]\C19/rm/m/n/12.05/51 8 \C19/rm/m/n/12.05/53 c \C19/rm/m/n/12.05/62 k \C19/rm/
+m/n/12.05/48 ü \C19/rm/m/n/12.05/64 ซ \C19/rm/m/n/12.05/37 ' \C19/rm/m/n/12.05/
+46  \C19/rm/m/n/12.05/38 ค \C19/rm/m/n/12.05/55 ู \C19/rm/m/n/12.05/40  \C19/
+rm/m/n/12.05/45 E \C19/rm/m/n/12.05/55 โ \C19/rm/m/n/12.05/41 ฉ \C19/rm/m/n/12.
+05/37 O \C19/rm/m/n/12.05/58   \C19/rm/m/n/12.05/54 ^ \C19/rm/m/n/12.05/42 ๚ 
+\C19/rm/m/n/12.05/56 i \C19/rm/m/n/12.05/40 \OT1/lmr/m/n/12.05 DirectShow\C19/
+rm/m/n/12.05/45 E \C19/rm/m/n/12.05/55 โ|\C19/rm/m/n/12.05/25 "| \OT1/lmr/m/n/1
+2.05 DirectShow\C19/rm/m/n/12.05/55 ด
+ []
+
+[6 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
+hapter2/struct1.pdf>]) [7]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.tex
+ตฺศýีย
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 28.
+
+[8
+
+
+
+]) [9]
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
 bbl)
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 71.
 
-[6
+[10
 
 
 ]
@@ -789,7 +830,9 @@ tract.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter1.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
-pter2.aux))
+pter2.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 
@@ -799,54 +842,53 @@ Package rerunfilecheck Warning: File `pkuthss.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `pkuthss.out':
-(rerunfilecheck)             Before: 9F5D36FCAF32A8B420321BCEF6B8816F;1147
-(rerunfilecheck)             After:  2FF5D5E6DF6FF1B3377157E3487B7B6F;627.
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Before: 0015AF170436BFE311F82C154B84AF6A;1504
+(rerunfilecheck)             After:  D3A1A0010F1961D6E98B9C97E8E6A47F;810.
  ) 
 Here is how much of TeX's memory you used:
- 11144 strings out of 494045
- 172840 string characters out of 3153701
- 256947 words of memory out of 3000000
- 14076 multiletter control sequences out of 15000+200000
- 104161 words of font info for 221 fonts, out of 3000000 for 9000
+ 11314 strings out of 494045
+ 176217 string characters out of 3153701
+ 257431 words of memory out of 3000000
+ 14224 multiletter control sequences out of 15000+200000
+ 108329 words of font info for 235 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 47i,12n,50p,826b,925s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Windows/Fonts/simhei.ttf><C:
-/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
-.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
-s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
-ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
-<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
-sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
-onts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/W
-indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
-tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
-simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Window
-s/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C
-:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simka
-i.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
-ts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Win
-dows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf
-><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/si
-msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
-Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/
-Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.
+ 47i,12n,52p,826b,996s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Windows/Fonts/simhei.ttf
+>{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
 ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
-/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
-ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
-C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simh
-ei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
-nts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
-ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
-f><C:/Windows/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx12.pfb
-><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/pu
-blic/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiKT
-eX/fonts/type1/public/lm/lmr8.pfb>
-Output written on pkuthss.pdf (10 pages, 587959 bytes).
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windo
+ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
+C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
+un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
+nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
+ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
+c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
+imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows
+/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:
+/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun
+.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Font
+s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Wind
+ows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
+kai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/W
+indows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.t
+tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
+simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
+s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
+:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
+i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
+ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+mhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/CTEX/MiKTeX/fonts
+/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr12.pfb><D:/
+CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiKTeX/fonts/type1/public/
+lm/lmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on pkuthss.pdf (14 pages, 656854 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

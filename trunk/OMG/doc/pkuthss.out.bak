@@ -9,4 +9,7 @@
 \BOOKMARK [0][-]{chapter.2}{系统设计概述}{}% 9
 \BOOKMARK [1][-]{section.2.1}{视频标注系统整体概述}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.2}{视频帧交互式标注模块}{chapter.2}% 11
-\BOOKMARK [0][-]{appendix*.6}{参考文献}{}% 12
+\BOOKMARK [1][-]{section.2.3}{系统其他部分介绍}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{标注模型的设计}{}% 13
+\BOOKMARK [1][-]{section.3.1}{基于触摸屏的标注模型}{chapter.3}% 14
+\BOOKMARK [0][-]{appendix*.6}{参考文献}{}% 15

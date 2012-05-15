@@ -4,7 +4,7 @@
     \begin{figure}[htbp]
     \centering
     \includegraphics{img/chapter2/flow1.pdf}
-    \caption{系统流程}\label{fig:puremass}
+    \caption{系统流程}\label{fig:flow2.1}
     \end{figure}
     可以看出，在一个视频标注系统中，已经存在完善且成熟的技术的有音视频分离和音视频同步部分，而镜头聚类分割和双目立体视频
     的生成也有了成熟的自动转换的技术。
@@ -22,6 +22,38 @@
     \begin{figure}[htbp]
     \centering
     \includegraphics{img/chapter2/depth.pdf}
-    \caption{自动/手动深度估计的对比}\label{fig:puremass}
+    \caption{自动/手动深度估计的对比}\label{fig:depth2.2}
     \end{figure}
-    目前可利用的背景估计的方法有两种，一种是利用Stage Model\cite{ctex}
+    目前可利用的背景估计的方法有两种，一种是利用Stage Model\cite{NedovicTPAMI2010}来对于背景场景建模，另一种则是利用自动的深度估计来估计背景的深度。
+
+    从图\ref{fig:depth2.2}中可以看出，由于仅仅对于场景的几何结构做出了估计，Stage Model对于背景的估计效果实际上是很不好的。例如背景中一些有层次的效果在Stage Model中体现不出来。相反地，对于背景中的物体，背景深度自动估计的方法却可以估计出比较真实的效果。
+    所以最终我们选择了以背景深度自动估计的方法来做背景深度的标注。
+    
+    而同样来自于图\ref{fig:depth2.2}的信息也可以看出对于自动的深度估计在细致的部分上的表现效果很差，这样在观影的时候
+    由于观众的注意力集中在前景物体上，所以微小的缺陷也容易给观众带来不适。
+    
+    所以在前景的标注上我们需要采用手工标注深度
+    的方法使得在前景部分的深度估计较为准确，从而得到更为精确的深度图，在转换成立体视频的时候更加逼近真实拍摄的立体视频。
+    \section{系统其他部分介绍}
+    \begin{figure}[htbp]
+    \centering
+    \includegraphics{img/chapter2/struct1.pdf}
+    \caption{系统架构}\label{fig:struct2.3}
+    \end{figure}
+    \begin{itemize}
+      \item 音视频分离与合成模块:
+      
+      目前有两种比较成熟的技术分别为微软公司的DirectShow技术。DirectShow是目前商业上成熟的视频播放软件与视频处理软件所常用的技术。
+      另一种为FFmpeg项目。FFmpeg是一个开源的免费的跨平台音视频流方案。它属于自由软件，根据所选择应用的组件不同需要遵守LGPL
+      或者GPL许可证，是众多优秀开源视频处理软件所采用的方案。
+      
+      在这两种方案之中Directshow是一个比较成熟的方案，优点在于创建简单的音视频处理流程
+      \item 镜头分割和聚类模块和立体图像生成：
+      
+      这两项工作已经有成熟的可运行的工作可以借鉴。这里就不再赘述。
+    \end{itemize}
+    图\ref{fig:struct2.3}是我们构想中的标注系统的示意图，可以看到最终的设想架构是在传统具有高计算性能的服务器上运行音视频分离，
+    背景深度图自动估计和立体视频生成等需要消耗大量计算量的模块。而客户端则采用本项目中设计的标注模块运行单帧的标注工作。为了
+    提高计算资源的使用率可以将系统设计成分布式系统，多个客户端共享一个高性能服务器。
+    
+    
