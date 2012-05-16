@@ -10,4 +10,17 @@ V.~Nedovic, A.~W.~M. Smeulders, A.~Redert, J.~M. Geusebroek.
 \newblock IEEE Transactions on Pattern Analysis and Machine Intelligence.
 \newblock 2010, {\bfseries 32}(9):1673--1687
 
+\bibitem{GraphCutsICCV2001}
+Yuri Y.Boykov, Marie-Pierre Jolly.
+\newblock Interactive Graph Cuts for Optimal Boundary \& Region Segmentation of
+  Objects in N-DImages[C].
+\newblock Proceedings of Internation Conference on Computer Vision. 2001
+
+\bibitem{Mortensen:1995:ISI:218380.218442}
+Eric~N. Mortensen, William~A. Barrett.
+\newblock Intelligent scissors for image composition[C].
+\newblock Proceedings of the 22nd annual conference on Computer graphics and
+  interactive techniques. SIGGRAPH '95, New York, NY, USA: ACM, 1995, 191--198.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/218380.218442}
+
 \end{thebibliography}
