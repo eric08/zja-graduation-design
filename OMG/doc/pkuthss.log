@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  16 MAY 2012 13:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  18 MAY 2012 09:57
 entering extended mode
 **pkuthss.tex
 
@@ -326,7 +326,114 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \c@FancyVerbLine=\count108
 \FV@StepNumber=\count109
 \FV@OutFile=\write3
-) (D:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+) (D:\CTEX\MiKTeX\tex\latex\picins\picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box34
+\@TEXT=\box35
+\d@breite=\dimen121
+\d@hoehe=\dimen122
+\d@xoff=\dimen123
+\d@yoff=\dimen124
+\d@shad=\dimen125
+\d@dash=\dimen126
+\d@boxl=\dimen127
+\d@pichskip=\dimen128
+\d@tmp=\dimen129
+\d@tmpa=\dimen130
+\d@bskip=\dimen131
+\hsiz@=\dimen132
+\p@getot@l=\dimen133
+\c@breite=\count110
+\c@hoehe=\count111
+\c@xoff=\count112
+\c@yoff=\count113
+\c@pos=\count114
+\c@shad=\count115
+\c@dash=\count116
+\c@boxl=\count117
+\c@zeilen=\count118
+\@changemode=\count119
+\c@piccaption=\count120
+\c@piccaptionpos=\count121
+\c@picpos=\count122
+\c@whole=\count123
+\c@half=\count124
+\c@tmp=\count125
+\c@tmpa=\count126
+\c@tmpb=\count127
+\c@tmpc=\count128
+\c@tmpd=\count129
+\d@leftskip=\skip58
+\ptoti=\dimen134
+\ptotii=\dimen135
+\env@box=\box36
+\d@envdp=\dimen136
+\c@hsize=\count130
+\c@envdp=\count131
+\d@envb=\dimen137
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen138
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen139
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count132
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count133
+\leftroot@=\count134
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count135
+\DOTSCASE@=\count136
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box37
+\strutbox@=\box38
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count137
+\c@MaxMatrixCols=\count138
+\dotsspace@=\muskip10
+\c@parentequation=\count139
+\dspbrk@lvl=\count140
+\tag@help=\toks21
+\row@=\count141
+\column@=\count142
+\maxfields@=\count143
+\andhelp@=\toks22
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks23
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen147
+)
+(D:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2011/10/01 v6.82j Hypertext links for LaTeX
 
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
@@ -371,14 +478,14 @@ Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
 (D:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 )
-\@linkdim=\dimen121
-\Hy@linkcounter=\count110
-\Hy@pagecounter=\count111
+\@linkdim=\dimen148
+\Hy@linkcounter=\count144
+\Hy@pagecounter=\count145
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2011/10/01 v6.82j Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count112
+\Hy@SavedSpaceFactor=\count146
 
 (D:\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -391,16 +498,16 @@ Package hyperref Info: Plain pages OFF on input line 4061.
 Package hyperref Info: Backreferencing OFF on input line 4066.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4284.
-\c@Hy@tempcnt=\count113
+\c@Hy@tempcnt=\count147
 
 (D:\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4637.
-\Fld@menulength=\count114
-\Field@Width=\dimen122
-\Fld@charsize=\dimen123
+\Fld@menulength=\count148
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 5723.
 Package hyperref Info: Link nesting OFF on input line 5728.
 Package hyperref Info: Hyper index ON on input line 5731.
@@ -410,124 +517,132 @@ Package hyperref Info: Link coloring with OCG OFF on input line 5748.
 Package hyperref Info: PDF/A mode OFF on input line 5753.
 LaTeX Info: Redefining \ref on input line 5793.
 LaTeX Info: Redefining \pageref on input line 5797.
-\Hy@abspage=\count115
-\c@Item=\count116
-\c@Hfootnote=\count117
+\Hy@abspage=\count149
+\c@Item=\count150
+\c@Hfootnote=\count151
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2011/10/01 v6.82j Hyperref driver for pdfTeX
-\Fld@listcount=\count118
-\c@bookmark@seq@number=\count119
+\Fld@listcount=\count152
+\c@bookmark@seq@number=\count153
 
 (D:\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip58
+\Hy@SectionHShift=\skip62
 )
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
-aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
+aux
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
  (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen124
-\scratchbox=\box34
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen125
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count154
+\scratchdimen=\dimen151
+\scratchbox=\box39
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen152
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
+\everyMPtoPDFconversion=\toks26
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -565,8 +680,8 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
-\AtBeginShipoutBox=\box35
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+\AtBeginShipoutBox=\box40
 (D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -575,7 +690,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 43.
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -583,11 +698,11 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (D:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count126
+\c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
 out)
@@ -603,56 +718,56 @@ File: extended.enc 2008/12/29 4.8.2
 (D:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-<img/pkulogo.pdf, id=3, 401.5pt x 401.5pt>
+<img/pkulogo.pdf, id=79, 401.5pt x 401.5pt>
 File: img/pkulogo.pdf Graphic file (type pdf)
  <use img/pkulogo.pdf>
-Package pdftex.def Info: img/pkulogo.pdf used on input line 46.
+Package pdftex.def Info: img/pkulogo.pdf used on input line 52.
 (pdftex.def)             Requested size: 43.31969pt x 43.32289pt.
 
-<img/pkuword.pdf, id=4, 526.96875pt x 150.5625pt>
+<img/pkuword.pdf, id=80, 526.96875pt x 150.5625pt>
 File: img/pkuword.pdf Graphic file (type pdf)
  <use img/pkuword.pdf>
-Package pdftex.def Info: img/pkuword.pdf used on input line 46.
+Package pdftex.def Info: img/pkuword.pdf used on input line 52.
 (pdftex.def)             Requested size: 151.62697pt x 43.32289pt.
-LaTeX Font Info:    Try loading font information for C19+rm on input line 46.
+LaTeX Font Info:    Try loading font information for C19+rm on input line 52.
 
 (D:\CTEX\CTeX\tex\latex\ctex\fd\c19rm.fd
 File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
 )
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 46.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 46.
+ family 'def' instead. on input line 52.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 52.
 
 (D:\CTEX\MiKTeX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 52.
 
  (D:\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 46.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 52.
 
  (D:\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.07> on input line 46.
+(Font)              <18.07> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <15.06> on input line 46.
+(Font)              <15.06> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.05> on input line 46.
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+(Font)              <12.05> on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for C19+zhkai on input line 46
+LaTeX Font Info:    Try loading font information for C19+zhkai on input line 52
 .
 
 (D:\CTEX\CTeX\tex\latex\zhmetrics\c19zhkai.fd
@@ -686,19 +801,24 @@ l.17 \begin{eabstract}
 ])
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 46.
+less on input line 52.
 
 [2
 
 
 ]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write5
 
+
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 51.
+less on input line 57.
 
 [3
 
@@ -720,7 +840,7 @@ less on input line 18.
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter2.tex
 µ⁄∂˛’¬
-<img/chapter2/flow1.pdf, id=128, 451.6875pt x 292.84406pt>
+<img/chapter2/flow1.pdf, id=214, 451.6875pt x 292.84406pt>
 File: img/chapter2/flow1.pdf Graphic file (type pdf)
 
 <use img/chapter2/flow1.pdf>
@@ -741,7 +861,7 @@ less on input line 14.
 
  <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/cha
 pter2/flow1.pdf>]
-<img/chapter2/depth.pdf, id=151, 453.19313pt x 229.60782pt>
+<img/chapter2/depth.pdf, id=234, 453.19313pt x 229.60782pt>
 File: img/chapter2/depth.pdf Graphic file (type pdf)
 
 <use img/chapter2/depth.pdf>
@@ -752,23 +872,9 @@ Overfull \hbox (26.40068pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 28.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
-
-Package natbib Warning: Citation `NedovicTPAMI2010' on page 5 undefined on inpu
-t line 28.
-
-
-LaTeX Warning: Reference `fig:depth2.2' on page 5 undefined on input line 30.
-
 [5 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
 hapter2/depth.pdf>]
-
-LaTeX Warning: Reference `fig:depth2.2' on page 6 undefined on input line 33.
-
-<img/chapter2/struct1.pdf, id=162, 430.60875pt x 155.07938pt>
+<img/chapter2/struct1.pdf, id=247, 430.60875pt x 155.07938pt>
 File: img/chapter2/struct1.pdf Graphic file (type pdf)
 
 <use img/chapter2/struct1.pdf>
@@ -798,72 +904,87 @@ rm/m/n/12.05/45 E \C19/rm/m/n/12.05/55 ‚|\C19/rm/m/n/12.05/25 "| \OT1/lmr/m/n/1
  []
 
 [6 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
-hapter2/struct1.pdf>]
-
-LaTeX Warning: Reference `fig:struct2.3' on page 7 undefined on input line 56.
-
-) [7]
+hapter2/struct1.pdf>]) [7]
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter3.tex
 µ⁄»˝’¬
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 28.
+less on input line 25.
 
 [8
 
 
 
-]
-
-LaTeX Warning: Reference `sec:2.2' on page 9 undefined on input line 28.
-
-
-LaTeX Warning: Reference `fig:labelstruct' on page 9 undefined on input line 28
-.
-
-<img/chapter3/labelstruct.pdf, id=227, 472.01344pt x 347.04657pt>
+] <img/chapter3/labelstruct.pdf, id=310, 472.01344pt x 347.04657pt>
 File: img/chapter3/labelstruct.pdf Graphic file (type pdf)
 
 <use img/chapter3/labelstruct.pdf>
-Package pdftex.def Info: img/chapter3/labelstruct.pdf used on input line 31.
+Package pdftex.def Info: img/chapter3/labelstruct.pdf used on input line 32.
 (pdftex.def)             Requested size: 426.79134pt x 313.80057pt.
  [9 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
 chapter3/labelstruct.pdf>]
-
-Package natbib Warning: Citation `GraphCutsICCV2001' on page 10 undefined on in
-put line 47.
-
-
-LaTeX Warning: Reference `fig:graphcut' on page 10 undefined on input line 47.
-
-<img/chapter3/graphcuts.pdf, id=251, 847.66687pt x 249.18094pt>
+<img/chapter3/graphcuts.pdf, id=336, 847.66687pt x 249.18094pt>
 File: img/chapter3/graphcuts.pdf Graphic file (type pdf)
 
 <use img/chapter3/graphcuts.pdf>
-Package pdftex.def Info: img/chapter3/graphcuts.pdf used on input line 52.
+Package pdftex.def Info: img/chapter3/graphcuts.pdf used on input line 53.
 (pdftex.def)             Requested size: 426.79134pt x 125.46085pt.
 
-
-Package natbib Warning: Citation `Mortensen:1995:ISI:218380.218442' on page 10 
-undefined on input line 56.
-
-
-LaTeX Warning: Reference `fig:scissors' on page 10 undefined on input line 56.
-
-<img/chapter3/Scissors.pdf, id=252, 884.55469pt x 268.00125pt>
+<img/chapter3/Scissors.pdf, id=339, 884.55469pt x 268.00125pt>
 File: img/chapter3/Scissors.pdf Graphic file (type pdf)
 
 <use img/chapter3/Scissors.pdf>
-Package pdftex.def Info: img/chapter3/Scissors.pdf used on input line 60.
+Package pdftex.def Info: img/chapter3/Scissors.pdf used on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 129.30978pt.
 
+<img/chapter3/cut.pdf, id=340, 331.2375pt x 368.1253pt>
+File: img/chapter3/cut.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig:scissors' on page 10 undefined on input line 68.
+<use img/chapter3/cut.pdf>
+Package pdftex.def Info: img/chapter3/cut.pdf used on input line 71.
+(pdftex.def)             Requested size: 170.71393pt x 189.72426pt.
+ [10 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter3/graphcuts.pdf>]
+Overfull \hbox (0.79178pt too wide) in paragraph at lines 77--79
+[]\C19/rm/m/n/12.05/44 ƒ \C19/rm/m/n/12.05/62 u\OT1/lmr/m/n/12.05 Graph Cuts\C1
+9/rm/m/n/12.05/40  \C19/rm/m/n/12.05/41 © \C19/rm/m/n/12.05/42  \C19/rm/m/n/1
+2.05/43 ⁄ \C19/rm/m/n/12.05/44 ƒ \C19/rm/m/n/12.05/62 u\OT1/lmr/m/n/12.05 Intel
+ligent
+ []
 
-[10 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
-chapter3/graphcuts.pdf>]) [11 <C:/Users/zhangjian/Desktop/design/zja-graduation
--design/trunk/OMG/doc/img/chapter3/Scissors.pdf>]
+[11 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
+chapter3/Scissors.pdf> <C:/Users/zhangjian/Desktop/design/zja-graduation-design
+/trunk/OMG/doc/img/chapter3/cut.pdf>]
+<img/chapter3/cut2.pdf, id=396, 308.65312pt x 268.75406pt>
+File: img/chapter3/cut2.pdf Graphic file (type pdf)
+
+<use img/chapter3/cut2.pdf>
+Package pdftex.def Info: img/chapter3/cut2.pdf used on input line 93.
+(pdftex.def)             Requested size: 170.71393pt x 148.64766pt.
+
+Overfull \hbox (16.21239pt too wide) in paragraph at lines 109--113
+[]\OT1/lmr/m/n/12.05 Boykov\C19/rm/m/n/12.05/43 ⁄\OT1/lmr/m/n/12.05 Jolly\C19/r
+m/m/n/12.05/63 3 \C19/rm/m/n/12.05/60 Ô \C19/rm/m/n/12.05/46 ƒ \C19/rm/m/n/12.0
+5/48 Î \C19/rm/m/n/12.05/60 Y \C19/rm/m/n/12.05/41 ç \C19/rm/m/n/12.05/43 º \C1
+9/rm/m/n/12.05/58 Ø \C19/rm/m/n/12.05/57 K \C19/rm/m/n/12.05/40  \C19/rm/m/n/1
+2.05/54  \C19/rm/m/n/12.05/46 € \C19/rm/m/n/12.05/62 ` \C19/rm/m/n/12.05/44 z 
+\C19/rm/m/n/12.05/55 û \C19/rm/m/n/12.05/57 J \C19/rm/m/n/12.05/38 — \C19/rm/m/
+n/12.05/49 
+ \C19/rm/m/n/12.05/57 „ \C19/rm/m/n/12.05/59 î \C19/rm/m/n/12.05/41 © \C19/rm/m
+/n/12.05/42  \C19/rm/m/n/12.05/41 ê {\OT1/lmr/m/n/12.05 Interactive
+ []
+
+[12 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
+chapter3/cut2.pdf>]
+<img/chapter3/netflow.pdf, id=405, 301.8778pt x 295.1025pt>
+File: img/chapter3/netflow.pdf Graphic file (type pdf)
+
+<use img/chapter3/netflow.pdf>
+Package pdftex.def Info: img/chapter3/netflow.pdf used on input line 113.
+(pdftex.def)             Requested size: 149.37956pt x 146.0244pt.
+ [13 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter3/netflow.pdf>]) [14]
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
 bbl
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 24.
@@ -873,17 +994,14 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 71.
+less on input line 77.
 
-[12
+[15
 
 
 ]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
 aux
@@ -894,14 +1012,9 @@ pter1.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
 pter2.aux)
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
-pter3.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+pter3.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 
 
 Package rerunfilecheck Warning: File `pkuthss.out' has changed.
@@ -909,61 +1022,59 @@ Package rerunfilecheck Warning: File `pkuthss.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `pkuthss.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  312344E8FFC1E9A0AB37C6C8276B3D7A;870.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: 2FB683FD357AB8E8246457F1ABF54BD3;2142
+(rerunfilecheck)             After:  59D4CB92545A8A355FFF38B38A430763;1086.
  ) 
 Here is how much of TeX's memory you used:
- 11404 strings out of 494045
- 177354 string characters out of 3153701
- 255599 words of memory out of 3000000
- 14307 multiletter control sequences out of 15000+200000
- 107116 words of font info for 222 fonts, out of 3000000 for 9000
+ 12235 strings out of 494045
+ 188114 string characters out of 3153701
+ 274461 words of memory out of 3000000
+ 15087 multiletter control sequences out of 15000+200000
+ 112773 words of font info for 241 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 47i,12n,52p,826b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Windows/Fonts/simhei.ttf><
-C:/Windows/Fonts/simhei.ttf>{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C
-:/Windows/Fonts/simhei.ttf>{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Win
-dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
-mhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
-Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
-Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
-ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts
-/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windo
-ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
-un.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fo
-nts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wi
-ndows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
-c><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
-imsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows
-/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:
-/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai
-.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
-s/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wind
-ows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
-<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
-hei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/F
-onts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
-indows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
-tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
-simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Window
-s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
-:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/t
-ype1/public/lm/lmbx12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><D:/C
-TEX/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/l
-m/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiKTeX/fon
-ts/type1/public/lm/lmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D
-:/CTEX/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on pkuthss.pdf (16 pages, 1294029 bytes).
+ 47i,12n,50p,826b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{D:/CTEX/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathit.enc}{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/CTEX/Mi
+KTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Windows/Fonts/simhei.ttf>{D:/CTEX/MiK
+TeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
+ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
+un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
+nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
+ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
+c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
+imhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
+/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
+/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai
+.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Font
+s/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Wind
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
+kai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/W
+indows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
+tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/
+simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Window
+s/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
+:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
+i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
+ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><D:/
+CTEX/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/CTEX/MiKTeX/fonts/type1/public
+/lm/lmex10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><D:/CTEX/MiKTeX
+/fonts/type1/public/lm/lmmi6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmmi8.pf
+b><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/p
+ublic/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiK
+TeX/fonts/type1/public/lm/lmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10
+.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/CTEX/MiKTeX/fonts/type
+1/public/lm/lmtt12.pfb>
+Output written on pkuthss.pdf (19 pages, 1395698 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
