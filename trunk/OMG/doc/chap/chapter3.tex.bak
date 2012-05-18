@@ -1,4 +1,5 @@
 \chapter{标注模型的设计}
+在设计标注模型的时候，我们充分考虑了触摸屏的操作特性，综合了计算方法的计算资源开销和人工操作的时间开销：
     \section{基于触摸屏的标注模型}
     在作为标注媒介方面，和传统的PC操作触摸屏具有以下几个优势:
 
@@ -52,7 +53,7 @@
     \includegraphics[width=\linewidth]{img/chapter3/graphcuts.pdf}
     \caption{Graph Cuts标注流程}\label{fig:graphcut}
     \end{figure}
-    
+
     第二种方法是使用Intelligent Scissors\cite{Mortensen:1995:ISI:218380.218442}的方法来对图像进行分割。如图\ref{fig:scissors}所示，可以看到Intelligent Scissors类似著名图像处理软件Photoshop的磁性套索。实际上这不是一个整体的图像切分的算法，而仅仅是图像不规则边缘
     的切分算法。
     \begin{figure}[htbp]
@@ -60,12 +61,109 @@
     \includegraphics[width=\linewidth]{img/chapter3/Scissors.pdf}
     \caption{Intelligent Scissors标注过程}\label{fig:scissors}
     \end{figure}
-    
+
     为了使Intelligent Scissors能在我们的算法中切分出一个封闭区域，我们对于它的使用做如下的限制：在初始分割一个前景物体的时候可以从前景边缘
     的任意位置开始标注。而只要这个前景物体被确定了第一段边缘之后，剩下的所有分割操作就只能是在这个已有的边缘上以这条边缘
     划定的不规则曲线的端点为基础扩展。
-    
+    \piccaption{切割一条曲线\label{cutlabel}}
+    \parpic[sr]{
+    \includegraphics[width=0.4\textwidth]{img/chapter3/cut.pdf}
+    }
     如图\ref{fig:scissors}中所显示的那样，要延伸在标注中的前景物体的边缘的方式就是从当前边缘曲线的两端开始扩展。这样就能够保证最后当用户
-    将当前边缘曲线的两个端点连接起来的时候一定能够得到一个封闭的区域作为前景物体的标注区域。
-    
-    基于Graph Cuts的分割和基于Intelligent Scissors的分割都能够达到我们对于前景物体的抠像的目的。这里我们将两个方法的特点做出一个对比。 
+    将当前边缘曲线的两个端点连接起来的时候一定能够得到一个封闭的区域作为前景物体的标注区域。具体的标注如\ref{cutlabel}
+    所示的那样，用户需要将曲线$\widehat{AB}$作为一个边缘分割出来就只需要先点击A，再点击B，则算法会自动将最贴近图像
+    边缘的曲线画出来。
+
+    基于Graph Cuts的分割和基于Intelligent Scissors的分割都能够达到我们对于前景物体的抠像的目的。
+    这里我们将两个方法的特点做出一个对比：
+
+    基于Graph Cuts的分割可
+    以一次性地分割出整个前景物体的轮廓，这样对于用户来说省时省力。而且分割出来的图像一定是一个封闭的图形。
+    这个特性使得我们在编写代码的时候不需要考虑闭合轮廓的这个过程。并且我们可以一次性得到前景和背景的mask矩阵。
+
+    而基于Intelligent Scissors的分割实际上专注于解决物体的轮廓问题。这个方法的计算量较小，但是在理想的情况下来看操作的次数相较Graph Cuts。因为首先Intelligent Sissors不可能一次性将前景物体分割出来。而且由图\ref{cutlabel}我们也可以看出，实际上每次标注的两点不能相隔太远
+    或者用来标注如图\ref{cutlabel2}的情况：我们需要标注曲线a为边缘，但是点击A，B两点之后返回的很大概率(取决于实际
+    图像的情况)会是c，以及b。所以为了得到曲线a就需要手工在a上多标注一个点。实际上如果一个前景物体包含了许多类似曲线
+    a这样弧度很大的边缘部分，那么我们就需要标注每一个顶点才能完整地得到正确的曲线。
+
+    而且相比于Graph Cuts松散的标注要求，Intelligent Scissors完全信任用户的标注，所以需要用户标注的每个控制点都是准确的。
+    \piccaption{多条曲线过两点的情况\label{cutlabel2}}
+    \parpic[sr]{
+    \includegraphics[width=0.4\textwidth]{img/chapter3/cut2.pdf}
+    }
+    不过如果考虑非理想的情况就可以看出Graph Cuts的缺点：这个算法不能100\%保证切割出来的前景和背景是一定准确的。或者说很有可能标注的每一个帧上都有细小的
+    误差而需要调整。而调整部分又需要使用Intelligent Scissors算法重新计算不准确部分的边缘。
+
+    实际上，我们标注的要求是得到前景物体尽可能精确的前景图形的闭合边缘，至于视频帧上每一个像素点是属于前景亦或是属于背景虽然是
+    我们需要求解的问题，但是一旦我们得到了闭合边缘曲线，那么曲线所包含的部分自然就是前景物体了。另一个方面如果得到了
+    前景和背景的范围根据它们相交的部分也可以得到边缘曲线。
+
+    不过由于边缘部分的前背景划分可信度是最低的，所以往往我们最能够信任的是我们不关心的前景中心部分的标注(很少有情况)
+    会将前景中心的像素错分成背景，我们最关心的边缘部分的划分反而是最不可信的(这会在\ref{sec:3.3.1}中详细叙述)。
+
+    基于上述的考虑，结合我们的设备选取的是触摸屏的情况，最终选择了Intelligent Scissors作为前景分割的工具
+    \section{标注中使用的算法简介}
+    在本节中将要简要介绍本章中涉及的算法。
+    \subsection{Graph Cuts算法}
+    \label{sec:3.3.1}
+    Boykov和Jolly在研究连续泛函问题的全局优化时提出了图像分割方法Interactive graph cuts\cite{GraphCutsICCV2001}。在Graph Cuts中需要人工地制定前景和背景的一些点，并且从人工标注的点中得到分割的一些基础，例如前景和背景的位置，颜色信息。
+    \piccaption{一个3X3的图像分割例子\label{netflow}}
+    \parpic[sr]{
+    \includegraphics[width=0.35\textwidth]{img/chapter3/netflow.pdf}
+    }
+    如\ref{netflow}所示，构造一个s-t网络\cite{IntroductionToAlgorithms}，网络节点集合V的组成部分由网络上的中间节点
+    (每个节点都对应了图像上的一个像素)和源、汇点S，T组成。其中和S相连的表示前景，和T相连的表示背景。
+
+    将每条边划分为两种类型：
+    \begin{itemize}
+      \item t-links边集：
+      \\中间节点和源点或者汇点连接的边
+      \item n-links边集：
+      \\相邻像素对{p,q}之间连接的边。
+    \end{itemize}
+
+    我们需要对于每条边都赋予一个权值，以下是权值表：
+    \begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    边 & 权值 & 类型\\
+    \hline
+      \multirow{2}{*}{$\{p,q\}$} & $B_{p,q}$ & $\{p,q\}\in N$ \\
+      &$\lambda\cdot R_p(background)$ & $p\in P,p\not\in O\cup B$ \\
+    \hline
+    \multirow{3}{*}{$\{p,S\}$} & K & $p\in O$\\
+                               & 0 & $p\in B$\\
+                               & $\lambda\cdot R_p(front)$ & $p\in P,p\not\in O\cup B$\\
+    \hline
+    \multirow{2}{*}{$\{p,T\}$} & 0 & $p \in O$\\
+                               & K & $p \in B$  \\
+    \hline
+    \end{tabular}
+    \end{center}
+    对于s-t网络的切割可以表示为：
+    \begin{equation}
+        A = (A_1,\cdots ,A_p,\cdots ,A_{\lvert p \rvert})\qquad A_p\in\{"front","background"\}
+    \end{equation}
+    切割之后所有的像素点分为和源点以及与背景相连的两个部分，它们分别代表的前景和背景。定义划分的能量函数如下：
+    \begin{gather}
+        E(A)=\lambda\cdot R(A)+B(A)\\
+        R(A)=\sum\limits_{p\in P}R_p(A_p)\\
+        B(A)=\sum\limits_{\{p,q\}\in N}B_{p,q}\cdot \delta_{A_p\neq A_q}
+    \end{gather}
+    可以证明能量函数的最小值就是对应于s-t网络的最小分割，这里不再多做证明。需要说明的是实际应用的方法是Graph Cuts的改进方法Grabcut\cite{GIFEIGC:siggraph2004},由Rother等人于2004年提出。主要改进在于能量函数的改进和EM思想的使用。
+    这里不多赘述。
+
+    从上可以看出，Graph Cuts几乎无差别地估计图像上的所有点——而非专注地解决边缘问题，这和我们的问题并不是完全相符的。
+    。正因为这个缺陷，我们在以往的实践中发现一个问题：前景的中心部分
+    往往可以很准确地估计出来，但是在边缘处却或多或少总是有估计不准的地方。经常性地需要重新修改的边缘能够达到一半，
+    而且多数存在于拐角等容易引人注意的地方。
+
+    在传统PC上计算资源足够的情况下我们可以选择使用Graph Cuts，牺牲一些计算资源来省却人工标注一些不容易出错的边缘。但是在移动设备上计算资源较为紧张，而操作较为便利，因此不再需要
+    Graph Cuts。但是需要说明的是在计算资源充足或者过剩的情况下还是可以采用这种算法来节省一些操作开销。
+
+    \subsection{Intelligent Scissors算法}
+    Intelligent Scissors\cite{Mortensen:1995:ISI:218380.218442}由Mortensen和Barrett于1995年提出，最终被选择作为
+    我们的图像分割算法。
+
+    该算法如图\ref{cutlabel}所示意的那样，用用户给出边缘曲线的起点和终点之后在图上寻找一条最短的路径作为分割出来
+    的曲线。

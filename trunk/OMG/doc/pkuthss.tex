@@ -8,9 +8,15 @@
 \usepackage{amssymb}
 % 提供 Verbatim 环境和 \VerbatimInput 命令。
 \usepackage{fancyvrb}
+\usepackage{graphicx}
+\usepackage{picins}
+\usepackage{amsmath}
+\usepackage{multirow}
+%\usepackage{multicolumn}
 % pkuthss 文档模版的版本。
 \newcommand{\docversion}{v1.3}
-
+% 表格换行
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
 % 参考文献格式。
 \bibliographystyle{ref/chinesebst-mod}
 % 设定文档的基本信息。
@@ -51,7 +57,7 @@
 	\mainmatter
 
 	% 绪言。
-	%\include{chap/introduction}
+	%\include{chap/form}
 	% 各章节。
 	\include{chap/chapter1}
 	\include{chap/chapter2}

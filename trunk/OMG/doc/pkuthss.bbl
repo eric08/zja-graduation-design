@@ -23,4 +23,17 @@ Eric~N. Mortensen, William~A. Barrett.
   interactive techniques. SIGGRAPH '95, New York, NY, USA: ACM, 1995, 191--198.
 \newblock \urlprefix\url{http://doi.acm.org/10.1145/218380.218442}
 
+\bibitem{IntroductionToAlgorithms}
+Thomas H.{\ }Cormen, Charles E.{\ }Leiserson, Ronald L.{\ }Rivest, Clifford
+  Stein.
+\newblock Introduction to Algorithms[M], third .
+\newblock The MIT Press, 2009
+
+\bibitem{GIFEIGC:siggraph2004}
+C.{\ }Rother, V.{\ }Kolmogorov, A.{\ }Blake.
+\newblock GrabCut -Interactive Foreground Extraction using Iterated Graph
+  Cuts[C].
+\newblock Proceedings of the 31nd annual conference on Computer graphics and
+  interactive techniques. SIGGRAPH '04, ACM, 2004, 309--314
+
 \end{thebibliography}
