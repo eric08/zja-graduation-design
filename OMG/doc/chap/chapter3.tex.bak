@@ -103,7 +103,7 @@
 
     基于上述的考虑，结合我们的设备选取的是触摸屏的情况，最终选择了Intelligent Scissors作为前景分割的工具
     \section{标注中使用的算法简介}
-    在本节中将要简要介绍本章中涉及的算法。
+    在本节中将要简要介绍本章中涉及的算法，并且通过分析算法的特性来暴露出算法中的一些固有的问题。
     \subsection{Graph Cuts算法}
     \label{sec:3.3.1}
     Boykov和Jolly在研究连续泛函问题的全局优化时提出了图像分割方法Interactive graph cuts\cite{GraphCutsICCV2001}。在Graph Cuts中需要人工地制定前景和背景的一些点，并且从人工标注的点中得到分割的一些基础，例如前景和背景的位置，颜色信息。

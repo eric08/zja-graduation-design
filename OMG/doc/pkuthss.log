@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  18 MAY 2012 09:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  19 MAY 2012 10:24
 entering extended mode
 **pkuthss.tex
 
@@ -987,7 +987,7 @@ Package pdftex.def Info: img/chapter3/netflow.pdf used on input line 113.
 /chapter3/netflow.pdf>]) [14]
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
 bbl
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 25.
 
  (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1026,10 +1026,10 @@ Package rerunfilecheck Info: Checksums for `pkuthss.out':
 (rerunfilecheck)             After:  59D4CB92545A8A355FFF38B38A430763;1086.
  ) 
 Here is how much of TeX's memory you used:
- 12235 strings out of 494045
- 188114 string characters out of 3153701
+ 12238 strings out of 494045
+ 188169 string characters out of 3153701
  274461 words of memory out of 3000000
- 15087 multiletter control sequences out of 15000+200000
+ 15090 multiletter control sequences out of 15000+200000
  112773 words of font info for 241 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  47i,12n,50p,826b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1072,7 +1072,7 @@ ublic/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CTEX/MiK
 TeX/fonts/type1/public/lm/lmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10
 .pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/CTEX/MiKTeX/fonts/type
 1/public/lm/lmtt12.pfb>
-Output written on pkuthss.pdf (19 pages, 1395698 bytes).
+Output written on pkuthss.pdf (19 pages, 1396026 bytes).
 PDF statistics:
  725 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)
