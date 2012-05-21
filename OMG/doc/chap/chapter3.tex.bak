@@ -167,3 +167,50 @@
 
     该算法如图\ref{cutlabel}所示意的那样，用用户给出边缘曲线的起点和终点之后在图上寻找一条最短的路径作为分割出来
     的曲线。
+
+    该算法实际上是将标注图像当作一个8连通的带权图$t$，其中图$t$上的每个顶点都对应于真实图像的一个像素$\textbf{p}$，而对于和像素
+    $\textbf{p}$在8连通区域上相邻的一个点$\textbf{q}$，它们之间的边的权值为$l(\textbf{p},\textbf{q})$。
+
+    当我们确定了图$t$上每一条边的权值之后，给定两个点$A$和$B$，则对应的边缘就是$A$到$B$的最短路径。而其中最短路径可以由诸如Dijkstra
+    \cite{website:Dijkstra}最短路径搜索算法等算法给出，所以这个问题的核心就是如何定义图像中边的权值：
+
+    在\citenum{Mortensen:1995:ISI:218380.218442}中考虑到了以下三个方面：图像的边缘，边缘的强度，边缘的走向：
+    \begin{center}
+    \begin{tabular}{|c|c|c|}
+      \hline
+      % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+      图像特征 & 表示 & 影响因素 \\
+      Laplacian zero crossing  & $f_Z$ & 图像的边缘 \\
+      梯度方向 & $f_D$ & 边缘的方向 \\
+      梯度大小 & $f_G$ & 边缘的强度 \\
+      \hline
+    \end{tabular}
+    \end{center}
+    所以对应于$\textbf{p}$到$\textbf{q}$的有向边的权重$I(\textbf{p},\textbf{q})$被定义为如下形式：
+    \begin{equation}
+        l(\textbf{p},\textbf{q})=\omega_Z\cdot f_Z(\textbf{q})+\omega_Z\cdot f_G(\textbf{q})+\omega_D\cdot f_D(\textbf{p},\textbf{q})
+    \end{equation}
+    其中$\omega_Z,\omega_Z,\omega_D$分别为三种特征的权重。鉴于\citenum{Mortensen:1995:ISI:218380.218442}中对于三种图像特征已经给出了
+    明确数学形式的定义和解释，这里只简要地列出它们的形式。
+    $f_Z(\textbf{q})$：
+    \begin{equation}
+        f_Z(\textbf{q})=\begin{cases}
+        0;\qquad if\, I_L(\textbf{q})=0\\
+        1;\qquad if\, I_L(\textbf{q})\neq 0
+        \end{cases}
+    \end{equation}
+    $f_G$以3阶Sobel算子计算图像在x，y方向的导数$I_x$,$I_y$：
+    \begin{equation}
+        f_G=\frac{max(G)-G}{max(G)}=1-\frac{G}{max(G)}
+    \end{equation}
+    $f_D$表明了梯度方向，其中$D(\textbf{p})$和$D'(\textbf{p})$分别表示$\textbf{p}$点处的梯度方向的单位向量和该单位向量旋转90度后的向量：
+    \begin{gather}
+        f_D(\textbf{p},\textbf{q})=\frac{2}{3\pi}\{ acos[d_\textbf{p}(\textbf{p},\textbf{q})]+acos[d_\textbf{p}(\textbf{p},\textbf{q})]\}\\
+        d_\textbf{p}(\textbf{p},\textbf{q})=\textbf{D'}(\textbf{p})\cdot\textbf{L}(\textbf{p},\textbf{q})\\
+        d_\textbf{q}(\textbf{p},\textbf{q})=\textbf{L}(\textbf{p},\textbf{q})\cdot\textbf{D'}(\textbf{q})\\
+        
+    \end{gather}
+    
+    
+    
+    
