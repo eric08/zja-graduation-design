@@ -36,4 +36,9 @@ C.{\ }Rother, V.{\ }Kolmogorov, A.{\ }Blake.
 \newblock Proceedings of the 31nd annual conference on Computer graphics and
   interactive techniques. SIGGRAPH '04, ACM, 2004, 309--314
 
+\bibitem{website:Dijkstra}
+Wikipedia.
+\newblock Dijkstra's algorithm[Z], May 2012.
+\newblock \urlprefix\url{http://en.wikipedia.org/wiki/Dijkstra's_algorithm}
+
 \end{thebibliography}

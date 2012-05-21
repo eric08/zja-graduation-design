@@ -12,6 +12,7 @@
 \usepackage{picins}
 \usepackage{amsmath}
 \usepackage{multirow}
+
 %\usepackage{multicolumn}
 % pkuthss 文档模版的版本。
 \newcommand{\docversion}{v1.3}
@@ -57,11 +58,12 @@
 	\mainmatter
 
 	% 绪言。
-	\include{chap/form}
+	%\include{chap/form}
 	% 各章节。
 	\include{chap/chapter1}
 	\include{chap/chapter2}
 	\include{chap/chapter3}
+    \include{chap/chapter4}
 	% 结论。
 	%\include{chap/conclusion}
 
