@@ -20,4 +20,5 @@
 \contentsline {section}{\numberline {4.2}用况分析及用况图文档}{20}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}文件浏览子系统}{21}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}前景标注子系统}{22}{subsection.4.2.2}
-\contentsline {chapter}{参考文献}{23}{appendix*.6}
+\contentsline {subsection}{\numberline {4.2.3}立体图像生成子系统}{23}{subsection.4.2.3}
+\contentsline {chapter}{参考文献}{24}{appendix*.6}
