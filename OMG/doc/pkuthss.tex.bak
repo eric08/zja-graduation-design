@@ -12,6 +12,7 @@
 \usepackage{picins}
 \usepackage{amsmath}
 \usepackage{multirow}
+\usepackage{pifont}
 
 %\usepackage{multicolumn}
 % pkuthss 文档模版的版本。
