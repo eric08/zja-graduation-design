@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  23 MAY 2012 22:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  24 MAY 2012 20:02
 entering extended mode
 **pkuthss.tex
 
@@ -627,4 +627,541 @@ LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 45.
+ (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count154
+\scratchdimen=\dimen151
+\scratchbox=\box39
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen152
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
+\everyMPtoPDFconversion=\toks26
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(85.35826pt, 426.79134pt, 85.35828pt)
+* v-part:(T,H,B)=(81.09035pt, 682.86613pt, 81.09036pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=618.83379pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=8.82036pt
+* \headheight=14.15855pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+\AtBeginShipoutBox=\box40
+(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 45.
+
+(D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count160
+)
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
+
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+out)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+out)
+\@outlinefile=\write4
+ (D:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(D:\CTEX\MiKTeX\tex\latex\cjk\extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(D:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+<img/pkulogo.pdf, id=139, 401.5pt x 401.5pt>
+File: img/pkulogo.pdf Graphic file (type pdf)
+ <use img/pkulogo.pdf>
+Package pdftex.def Info: img/pkulogo.pdf used on input line 54.
+(pdftex.def)             Requested size: 43.31969pt x 43.32289pt.
+
+<img/pkuword.pdf, id=140, 526.96875pt x 150.5625pt>
+File: img/pkuword.pdf Graphic file (type pdf)
+ <use img/pkuword.pdf>
+Package pdftex.def Info: img/pkuword.pdf used on input line 54.
+(pdftex.def)             Requested size: 151.62697pt x 43.32289pt.
+LaTeX Font Info:    Try loading font information for C19+rm on input line 54.
+
+(D:\CTEX\CTeX\tex\latex\ctex\fd\c19rm.fd
+File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
+)
+Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
+ family 'def' instead. on input line 54.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 54.
+
+(D:\CTEX\MiKTeX\tex\latex\lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 54.
+
+ (D:\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 54.
+
+ (D:\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18.07> on input line 54.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <15.06> on input line 54.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12.05> on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for C19+zhkai on input line 54
+.
+
+(D:\CTEX\CTeX\tex\latex\zhmetrics\c19zhkai.fd
+File: c19zhkai.fd 2009/09/23 4.8.2
+) [1
+
+
+
+
+ <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/pku
+logo.pdf> <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/do
+c/img/pkuword.pdf>]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.tex
+Package CJKpunct Info: punctuation spaces for family 'zhhei' do not exist. Use 
+family 'def' instead. on input line 15.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 17.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{eabstract}
+                       [1
+
+
+
+])
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 54.
+
+[2
+
+
+]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 23.
+
+[3
+
+
+
+])
+\tf@toc=\write5
+ [4]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.tex
+µ⁄“ª’¬
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 18.
+
+[1
+
+
+
+] [2]) [3]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.tex
+µ⁄∂˛’¬
+<img/chapter2/flow1.pdf, id=295, 451.6875pt x 292.84406pt>
+File: img/chapter2/flow1.pdf Graphic file (type pdf)
+
+<use img/chapter2/flow1.pdf>
+Package pdftex.def Info: img/chapter2/flow1.pdf used on input line 6.
+(pdftex.def)             Requested size: 451.68639pt x 292.84334pt.
+
+Overfull \hbox (24.89505pt too wide) in paragraph at lines 6--7
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 14.
+
+[4
+
+
+
+ <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/cha
+pter2/flow1.pdf>]
+<img/chapter2/depth.pdf, id=315, 453.19313pt x 229.60782pt>
+File: img/chapter2/depth.pdf Graphic file (type pdf)
+
+<use img/chapter2/depth.pdf>
+Package pdftex.def Info: img/chapter2/depth.pdf used on input line 25.
+(pdftex.def)             Requested size: 453.19202pt x 229.60725pt.
+
+Overfull \hbox (26.40068pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+[5 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
+hapter2/depth.pdf>]
+<img/chapter2/struct1.pdf, id=328, 430.60875pt x 155.07938pt>
+File: img/chapter2/struct1.pdf Graphic file (type pdf)
+
+<use img/chapter2/struct1.pdf>
+Package pdftex.def Info: img/chapter2/struct1.pdf used on input line 41.
+(pdftex.def)             Requested size: 430.60768pt x 155.07898pt.
+
+Overfull \hbox (3.81635pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 45.
+(D:\CTEX\MiKTeX\tex\latex\lm\omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12.05> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 45.
+
+Overfull \hbox (8.89171pt too wide) in paragraph at lines 47--50
+[]\C19/rm/m/n/12.05/51 8 \C19/rm/m/n/12.05/53 c \C19/rm/m/n/12.05/62 k \C19/rm/
+m/n/12.05/48 ¸ \C19/rm/m/n/12.05/64 ´ \C19/rm/m/n/12.05/37 ' \C19/rm/m/n/12.05/
+46  \C19/rm/m/n/12.05/38 § \C19/rm/m/n/12.05/55 Ÿ \C19/rm/m/n/12.05/40  \C19/
+rm/m/n/12.05/45 E \C19/rm/m/n/12.05/55 ‚ \C19/rm/m/n/12.05/41 © \C19/rm/m/n/12.
+05/37 O \C19/rm/m/n/12.05/58 è á \C19/rm/m/n/12.05/54 ^ \C19/rm/m/n/12.05/42 ˙ 
+\C19/rm/m/n/12.05/56 i \C19/rm/m/n/12.05/40 \OT1/lmr/m/n/12.05 DirectShow\C19/
+rm/m/n/12.05/45 E \C19/rm/m/n/12.05/55 ‚|\C19/rm/m/n/12.05/25 "| \OT1/lmr/m/n/1
+2.05 DirectShow\C19/rm/m/n/12.05/55 ¥
+ []
+
+[6 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/c
+hapter2/struct1.pdf>]) [7]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.tex
+µ⁄»˝’¬
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 25.
+
+[8
+
+
+
+] <img/chapter3/labelstruct.pdf, id=391, 472.01344pt x 347.04657pt>
+File: img/chapter3/labelstruct.pdf Graphic file (type pdf)
+
+<use img/chapter3/labelstruct.pdf>
+Package pdftex.def Info: img/chapter3/labelstruct.pdf used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 313.80057pt.
+ [9 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
+chapter3/labelstruct.pdf>]
+<img/chapter3/graphcuts.pdf, id=416, 847.66687pt x 249.18094pt>
+File: img/chapter3/graphcuts.pdf Graphic file (type pdf)
+
+<use img/chapter3/graphcuts.pdf>
+Package pdftex.def Info: img/chapter3/graphcuts.pdf used on input line 54.
+(pdftex.def)             Requested size: 426.79134pt x 125.46085pt.
+
+<img/chapter3/Scissors.pdf, id=419, 884.55469pt x 268.00125pt>
+File: img/chapter3/Scissors.pdf Graphic file (type pdf)
+
+<use img/chapter3/Scissors.pdf>
+Package pdftex.def Info: img/chapter3/Scissors.pdf used on input line 62.
+(pdftex.def)             Requested size: 426.79134pt x 129.30978pt.
+
+<img/chapter3/cut.pdf, id=420, 331.2375pt x 368.1253pt>
+File: img/chapter3/cut.pdf Graphic file (type pdf)
+
+<use img/chapter3/cut.pdf>
+Package pdftex.def Info: img/chapter3/cut.pdf used on input line 72.
+(pdftex.def)             Requested size: 170.71393pt x 189.72426pt.
+ [10 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter3/graphcuts.pdf>]
+Overfull \hbox (0.79178pt too wide) in paragraph at lines 78--80
+[]\C19/rm/m/n/12.05/44 ƒ \C19/rm/m/n/12.05/62 u\OT1/lmr/m/n/12.05 Graph Cuts\C1
+9/rm/m/n/12.05/40  \C19/rm/m/n/12.05/41 © \C19/rm/m/n/12.05/42  \C19/rm/m/n/1
+2.05/43 ⁄ \C19/rm/m/n/12.05/44 ƒ \C19/rm/m/n/12.05/62 u\OT1/lmr/m/n/12.05 Intel
+ligent
+ []
+
+[11 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
+chapter3/Scissors.pdf> <C:/Users/zhangjian/Desktop/design/zja-graduation-design
+/trunk/OMG/doc/img/chapter3/cut.pdf>]
+<img/chapter3/cut2.pdf, id=476, 308.65312pt x 268.75406pt>
+File: img/chapter3/cut2.pdf Graphic file (type pdf)
+
+<use img/chapter3/cut2.pdf>
+Package pdftex.def Info: img/chapter3/cut2.pdf used on input line 94.
+(pdftex.def)             Requested size: 170.71393pt x 148.64766pt.
+
+Overfull \hbox (16.21239pt too wide) in paragraph at lines 110--114
+[]\OT1/lmr/m/n/12.05 Boykov\C19/rm/m/n/12.05/43 ⁄\OT1/lmr/m/n/12.05 Jolly\C19/r
+m/m/n/12.05/63 3 \C19/rm/m/n/12.05/60 Ô \C19/rm/m/n/12.05/46 ƒ \C19/rm/m/n/12.0
+5/48 Î \C19/rm/m/n/12.05/60 Y \C19/rm/m/n/12.05/41 ç \C19/rm/m/n/12.05/43 º \C1
+9/rm/m/n/12.05/58 Ø \C19/rm/m/n/12.05/57 K \C19/rm/m/n/12.05/40  \C19/rm/m/n/1
+2.05/54  \C19/rm/m/n/12.05/46 € \C19/rm/m/n/12.05/62 ` \C19/rm/m/n/12.05/44 z 
+\C19/rm/m/n/12.05/55 û \C19/rm/m/n/12.05/57 J \C19/rm/m/n/12.05/38 — \C19/rm/m/
+n/12.05/49 
+ \C19/rm/m/n/12.05/57 „ \C19/rm/m/n/12.05/59 î \C19/rm/m/n/12.05/41 © \C19/rm/m
+/n/12.05/42  \C19/rm/m/n/12.05/41 ê {\OT1/lmr/m/n/12.05 Interactive
+ []
+
+[12 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img/
+chapter3/cut2.pdf>]
+<img/chapter3/netflow.pdf, id=485, 301.8778pt x 295.1025pt>
+File: img/chapter3/netflow.pdf Graphic file (type pdf)
+
+<use img/chapter3/netflow.pdf>
+Package pdftex.def Info: img/chapter3/netflow.pdf used on input line 114.
+(pdftex.def)             Requested size: 149.37956pt x 146.0244pt.
+ [13 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter3/netflow.pdf>] [14] [15]
+<img/chapter3/labelin.pdf, id=528, 308.65312pt x 268.75406pt>
+File: img/chapter3/labelin.pdf Graphic file (type pdf)
+
+<use img/chapter3/labelin.pdf>
+Package pdftex.def Info: img/chapter3/labelin.pdf used on input line 222.
+(pdftex.def)             Requested size: 170.71393pt x 148.64766pt.
+) [16 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/im
+g/chapter3/labelin.pdf>]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter4.tex
+µ⁄Àƒ’¬
+<img/chapter4/subsystem.pdf, id=539, 357.58594pt x 386.94562pt>
+File: img/chapter4/subsystem.pdf Graphic file (type pdf)
+
+<use img/chapter4/subsystem.pdf>
+Package pdftex.def Info: img/chapter4/subsystem.pdf used on input line 11.
+(pdftex.def)             Requested size: 362.77524pt x 392.58328pt.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 29.
+
+[17
+
+
+
+] [18 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/im
+g/chapter4/subsystem.pdf>] [19]
+<img/chapter4/usecase.pdf, id=574, 713.66624pt x 758.835pt>
+File: img/chapter4/usecase.pdf Graphic file (type pdf)
+
+<use img/chapter4/usecase.pdf>
+Package pdftex.def Info: img/chapter4/usecase.pdf used on input line 63.
+(pdftex.def)             Requested size: 341.43436pt x 363.04404pt.
+ [20 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc/img
+/chapter4/usecase.pdf>] [21] [22]
+<img/chapter4/class.pdf, id=605, 599.99156pt x 301.125pt>
+File: img/chapter4/class.pdf Graphic file (type pdf)
+
+<use img/chapter4/class.pdf>
+Package pdftex.def Info: img/chapter4/class.pdf used on input line 167.
+(pdftex.def)             Requested size: 426.79134pt x 214.20457pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[23] [24 <C:/Users/zhangjian/Desktop/design/zja-graduation-design/trunk/OMG/doc
+/img/chapter4/class.pdf>]) [25]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter5.tex
+µ⁄ŒÂ’¬
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 30.
+
+[26
+
+
+
+]) [27]
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+bbl
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 25.
+
+ (D:\CTEX\MiKTeX\tex\latex\lm\ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 81.
+
+[28
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\pkuthss.
+aux
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
+tract.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter1.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter2.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter3.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter4.aux)
+(C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/cha
+pter5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+
+
+Package rerunfilecheck Warning: File `pkuthss.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `pkuthss.out':
+(rerunfilecheck)             Before: D4FA7C058E9FEFC2E641533FEF3A85AC;3977
+(rerunfilecheck)             After:  FB0D434F9D673E78E1068267DF4ED84E;2072.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12584 strings out of 494045
+ 194804 string characters out of 3153701
+ 276142 words of memory out of 3000000
+ 15355 multiletter control sequences out of 15000+200000
+ 126489 words of font info for 269 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 47i,16n,51p,826b,1173s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}<C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{D:/CTEX/MiKTeX/fonts/
+enc/dvips/lm/lm-rm.enc}{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/CTE
+X/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/CTEX/MiKTeX/fonts/enc/dvips/lm/lm
+-mathex.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
+ws/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simh
+ei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fo
+nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
+ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
+c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
+imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
+/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:
+/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun
+.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
+s/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wind
+ows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
+kai.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simsun.ttc><C:/W
+indows/Fonts/simsun.ttc><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.t
+tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/
+simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Window
+s/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C
+:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhe
+i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
+ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx12.p
+fb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><D:/CTEX/MiKTeX/fonts/type1/
+public/lm/lmex10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><D:/CTEX/
+MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lm
+mi8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/CTEX/MiKTeX/fonts/t
+ype1/public/lm/lmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr17.pfb><D:/CT
+EX/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/
+lmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/CTEX/MiKTeX/font
+s/type1/public/lm/lmtt12.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+
+Output written on pkuthss.pdf (33 pages, 1615666 bytes).
+PDF statistics:
+ 965 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
+
