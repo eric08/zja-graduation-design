@@ -31,4 +31,8 @@
 \BOOKMARK [1][-]{section.5.1}{软件实现平台}{chapter.5}% 31
 \BOOKMARK [1][-]{section.5.2}{软件实现中用到的优化技术}{chapter.5}% 32
 \BOOKMARK [2][-]{subsection.5.2.1}{JNI技术}{section.5.2}% 33
-\BOOKMARK [0][-]{appendix*.6}{参考文献}{}% 34
+\BOOKMARK [2][-]{subsection.5.2.2}{NDK技术}{section.5.2}% 34
+\BOOKMARK [1][-]{section.5.3}{部分程序界面介绍}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter*.6}{总结}{}% 36
+\BOOKMARK [0][-]{appendix*.8}{参考文献}{}% 37
+\BOOKMARK [0][-]{appendix*.9}{致谢}{}% 38

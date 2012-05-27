@@ -1,6 +1,6 @@
 % Public domain.
 
-\documentclass[GBK]{pkuthss}
+\documentclass[GBK,oneside]{pkuthss}
 
 % 使得打字机粗体可以被使用。
 \usepackage{lmodern}
@@ -81,7 +81,7 @@
 	\backmatter
 
 	% 致谢。
-	%\include{chap/thanks}
+	\include{chap/thanks}
 	% 原创性声明和使用授权说明。
 	%\include{chap/originauth}
 \end{document}

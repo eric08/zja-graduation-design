@@ -41,4 +41,15 @@ Wikipedia.
 \newblock Dijkstra's algorithm[Z], May 2012.
 \newblock \urlprefix\url{http://en.wikipedia.org/wiki/Dijkstra's_algorithm}
 
+\bibitem{liang1999java}
+S.~Liang.
+\newblock The Java native interface: programmer's guide and specification[M].
+\newblock Addison-Wesley Professional, 1999
+
+\bibitem{website:JNI}
+Andy Thomas-Cramer.
+\newblock What makes JNI calls slow[Z], Oct 2011.
+\newblock
+  \urlprefix\url{http://stackoverflow.com/questions/7699020/what-makes-jni-calls-slow}
+
 \end{thebibliography}
