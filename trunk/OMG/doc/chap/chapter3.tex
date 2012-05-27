@@ -63,6 +63,7 @@
     \caption{Intelligent Scissors标注过程}\label{fig:scissors}
     \end{figure}
 
+
     为了使Intelligent Scissors能在我们的算法中切分出一个封闭区域，我们对于它的使用做如下的限制：在初始分割一个前景物体的时候可以从前景边缘
     的任意位置开始标注。而只要这个前景物体被确定了第一段边缘之后，剩下的所有分割操作就只能是在这个已有的边缘上以这条边缘
     划定的不规则曲线的端点为基础扩展。
@@ -220,10 +221,10 @@
     \parpic[sr]{
     \includegraphics[width=0.4\textwidth]{img/chapter3/labelin.pdf}
     }
-    
+
     但是另一方面我们可以看出Intelligent Scissors算法寻找的仅仅是较为明显的边缘。正如之前在\ref{set3.2}中提到的一样，当我们需要标注的前景物体上有较多明显的条纹(例如斑马这样的动物)，或者背景
     杂乱(例如背景是一副轮廓明显的壁画)的时候就较为容易出错。所以在标注如图\ref{cutlabel3}这样的情况我们就要通过分别加上$\alpha$，$\beta$和$\gamma$
     这样额外的控制点来达到从这三条边缘中选择一条的目的。
-    
-    
-    
+
+
+

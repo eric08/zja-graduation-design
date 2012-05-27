@@ -35,7 +35,92 @@ Android2.3操作系统。
 虽然在J2SE1.4.2发布后Java的速度执行速度有很大的提升，但是在数学计算，内存读取等方面和C/C++的差距还是很明显。
 于此同时我们的大量开销都花费在图像操作上，这却恰好是设计大量数学计算和内存读取的操作。所以我们需要将基于C语言实现
 的算法移植到Android上。以下我将会重点两个在移植中大量使用的技术。
+\begin{figure}[htbp]
+\centering
+  \begin{minipage}[t]{0.5\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/application.pdf}
+    \caption{JNI调用的关系}
+    \label{fig:JNI-app}
+  \end{minipage}
+  \begin{minipage}[t]{0.33\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/callstack.pdf}
+    \caption{JNI程序调用堆栈}
+    \label{fig:callstack}
+  \end{minipage}
+\end{figure}
 \subsection{JNI技术}
 JNI是Java Native Interface的缩写，中文为JAVA本地调用。顾名思义，它是用来调用本地的函数或者方法的接口。
 
-何谓本地接口，我们知道Java语言都是运行在JVM虚拟机上的，而JVM虚拟机则是运行在本地接口上的。
+我们知道Java语言都是运行在JVM虚拟机上的，而JVM虚拟机则是运行在本地接口上的。由于JVM的特性，它在大量数学计算和内存读取上相较
+C/C++等编译执行的语言来的要慢。但是我们恰恰在进行图像处理的时候需要进行大量的数学计算，这就和我们的要求相违背。
+所以我们希望能够找到一个折衷的办法，就是如何使Java语言能够在处理这些问题的时候使用C/C++编写的库。
+
+按照Sun公司给出的说明\citenum{liang1999java}，JNI的作用不仅仅是调用C/C++的动态链接库(DLL)，而是"enables the integration of code written in the Java programming language with code written in other languages"。
+\footnotemark\footnotetext[1]{感谢Sun公司免费将这本书提供给我们，使得我们不用应付类似在学习C\#或者别的技术时面对的问题：
+花大价钱去买下它或者下载版权有争议的电子书，虽然我们的目的是为了推广这个技术}
+
+如图\ref{fig:JNI-app}，我们可以看到，在JAVA端，JVM虚拟机执行字节码文件。通过JNI接口访问C端的函数或者库。实际上，这个
+库是运行在操作系统本地上(所以称作NATIVE方法)。也就是说它和JAVA代码分别运行在虚拟机和本地操作系统上，所以要明确
+这个概念：JNI并不是提供在JVM上执行C语言程序的方法，而是提供了一个穿越JVM的接口，可以近似地将它理解成一个系统调用。
+
+根据\ref{fig:callstack}我们可以清楚地看到java页面和native页面交替执行和通信的过程。不过这种切换总是有开销的\cite{website:JNI}，我们
+尽量降低子系统之间的交互其中有一个原因就是避免过多的转换开销。
+
+\subsection{NDK技术}
+我们知道，Android是一个以Linux为基础的操作系统。但是实际上Android截止到4.0.3版本的系统发布为止，仍然只有公布JAVA语言
+的API，也就是说如果我们需要编写Android操作系统上的第三方程序一般来说就需要使用JAVA语言(实际上借用SL4A等技术可以使用
+诸如Python等脚本语言，但是这仅仅是一个取巧的方法，并不适合大量使用)。
+
+另一方面，Google从一开始就允许了使用C/C++开发。从Android SDK首次发布的时候Google就已经宣布Dalvik虚拟机是支持
+JNI接口的。也就是说，JNI这种技术即使不需要NDK技术的加入也是一直都可以实现的(实际上我们如果翻阅SDK源码，可以发现
+其中使用了大量Native方法)。但是另一方面，我们的本地动态链接库如何与应用程序打包在一起成为apk并发布？
+
+所以我们使用了NDK技术，使得在编译的时候可以借用NDK进行Android系统上的交叉编译，生成动态链接库.so。最后借用NDK将
+程序和.so文件打包在一起发布。这使得我们在进行开发的时候省去许多不必要的配置。
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{img/chapter5/NDK.pdf}
+    \caption{利用NDK交叉编译C语言代码以及打包的流程}\label{fig:NDK}
+\end{figure}
+
+如图\ref{fig:NDK}所示，我们将在linux上实现的C语言算法交叉编译成适应于Android系统的.so文件，然后将它和Java应用程序
+一起打包，最后生成可以发布的APK。
+
+\section{部分程序界面介绍}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.68\linewidth]{img/chapter5/operation.pdf}
+    \caption{程序界面流程}\label{fig:operation}
+\end{figure}
+如图\ref{fig:operation}所示，整个的程序的流程包括初始界面，选择菜单，标注，前景物体调整以及深度图预览几个部分，
+和我们在图\ref{fig:labelstruct}中看到的一样。以下是各个部分的展示。
+\begin{figure}[htbp]
+\centering
+  \begin{minipage}[t]{0.23\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/1.PNG}
+    \caption{程序主界面}
+    \label{fig:frame}
+  \end{minipage}
+  \begin{minipage}[t]{0.23\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/5.PNG}
+    \caption{前景分割}
+    \label{fig:intel}
+  \end{minipage}
+  \begin{minipage}[t]{0.23\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/3.PNG}
+    \caption{前景调整}
+    \label{fig:adjust}
+  \end{minipage}
+  \begin{minipage}[t]{0.23\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/chapter5/4.PNG}
+    \caption{深度图预览}
+    \label{fig:depthpreview}
+  \end{minipage}
+\end{figure}
