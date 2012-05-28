@@ -38,8 +38,8 @@
 	school={信息科学技术学院},
 	cmajor={计算机}, emajor={Computer Science}, direction={计算机应用技术},
 	cmentor={王亦洲}, ementor={Prof.Wang Yizhou},
-	ckeywords={触摸屏，3D，人机交互，Android},
-	ekeywords={Touch Screen, 3D, Human-Computer Interaction, Android},
+	ckeywords={触摸屏，立体视频，人机交互，Android},
+	ekeywords={Touch Screen, stereo video, Human-Computer Interaction, Android},
 }
 
 \begin{document}
@@ -51,6 +51,11 @@
 	% 版权声明。
 	%\include{chap/copyright}
 	% 中英文摘要。
+\begin{figure}
+  % Requires \usepackage{graphicx}
+  \includegraphics{chap/form.pdf}\\
+\end{figure}
+    
 	\include{chap/abstract}
 	% 自动生成目录。
 	\tableofcontents

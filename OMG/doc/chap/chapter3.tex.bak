@@ -39,6 +39,7 @@
       由于背景的深度自动估计已经有了成熟稳定的算法，所以本项目的主要目的是在解决前景的标注问题。
 
     \section{前景标注方法}
+    \label{set3.2}
     前景标注有很多方法，其中最传统的是手工标注出每一个像素点的深度值。这个方法的优点是易于实现，而且如果能保证人工标注
     完全准确的话，理论上可以得到ground truth。但是这个方法的缺点显而易见，那就是工作量非常大，工作效率非常低。而且如何保证帧之间的标注一致性也是一个问题。
 
@@ -61,6 +62,7 @@
     \includegraphics[width=\linewidth]{img/chapter3/Scissors.pdf}
     \caption{Intelligent Scissors标注过程}\label{fig:scissors}
     \end{figure}
+
 
     为了使Intelligent Scissors能在我们的算法中切分出一个封闭区域，我们对于它的使用做如下的限制：在初始分割一个前景物体的时候可以从前景边缘
     的任意位置开始标注。而只要这个前景物体被确定了第一段边缘之后，剩下的所有分割操作就只能是在这个已有的边缘上以这条边缘
@@ -206,11 +208,23 @@
     $f_D$表明了梯度方向，其中$D(\textbf{p})$和$D'(\textbf{p})$分别表示$\textbf{p}$点处的梯度方向的单位向量和该单位向量旋转90度后的向量：
     \begin{gather}
         f_D(\textbf{p},\textbf{q})=\frac{2}{3\pi}\{ acos[d_\textbf{p}(\textbf{p},\textbf{q})]+acos[d_\textbf{p}(\textbf{p},\textbf{q})]\}\\
-        d_\textbf{p}(\textbf{p},\textbf{q})=\textbf{D'}(\textbf{p})\cdot\textbf{L}(\textbf{p},\textbf{q})\\
-        d_\textbf{q}(\textbf{p},\textbf{q})=\textbf{L}(\textbf{p},\textbf{q})\cdot\textbf{D'}(\textbf{q})\\
-        
+        d_\textbf{p}(\textbf{p},\textbf{q})=\textbf{D}'(\textbf{p})\cdot\textbf{L}(\textbf{p},\textbf{q})\\
+        d_\textbf{q}(\textbf{p},\textbf{q})=\textbf{L}(\textbf{p},\textbf{q})\cdot\textbf{D}'(\textbf{q})\\
+        \textbf{L}(\textbf{p},\textbf{q})=\frac{1}{\left\vert\textbf{p}-\textbf{q} \right\vert}\begin{cases}
+        \textbf{q}-\textbf{p};\quad if\, \textbf{D}'(\textbf{p})\cdot (\textbf{q}-\textbf{p})\geq 0\\
+        \textbf{p}-\textbf{q};\quad if\, \textbf{D}'(\textbf{p})\cdot (\textbf{q}-\textbf{p})<0
+        \end{cases}
     \end{gather}
-    
-    
-    
-    
+    通过这一章的算法分析我们可以看出，实际上Intelligent Scissors除去对于图中初始化需要计算每条边的权值之外，在计算每条边的开销的时候是比较低的。这样保证了在标注每条边的时候用户的延迟
+    等待不会太大，一般来说可以达到实时的相应。
+    \piccaption{多条曲线过两点的情况\label{cutlabel3}}
+    \parpic[sr]{
+    \includegraphics[width=0.4\textwidth]{img/chapter3/labelin.pdf}
+    }
+
+    但是另一方面我们可以看出Intelligent Scissors算法寻找的仅仅是较为明显的边缘。正如之前在\ref{set3.2}中提到的一样，当我们需要标注的前景物体上有较多明显的条纹(例如斑马这样的动物)，或者背景
+    杂乱(例如背景是一副轮廓明显的壁画)的时候就较为容易出错。所以在标注如图\ref{cutlabel3}这样的情况我们就要通过分别加上$\alpha$，$\beta$和$\gamma$
+    这样额外的控制点来达到从这三条边缘中选择一条的目的。
+
+
+
