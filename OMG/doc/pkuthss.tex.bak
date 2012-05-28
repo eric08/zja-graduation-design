@@ -24,7 +24,7 @@
 % 设定文档的基本信息。
 \pkuthssinfo{
 	cthesisname={本科生毕业论文}, ethesisname={Undergraduate Thesis},
-	ctitle={基于触摸屏的3D图像\\标注工具设计},
+	ctitle={基于触摸屏的立体图像\\标注系统},
 	% “\\”在设定 pdf 元数据时会被自动过滤掉，于是得到的 pdf 元数据中标题为
 	%   The PKU dissertation document classpkuthss [版本号]
 	% 此处指定其被替换为“: ”，以使之为
