@@ -29,7 +29,7 @@
 	%   The PKU dissertation document classpkuthss [版本号]
 	% 此处指定其被替换为“: ”，以使之为
 	etitle={%
-		An Design For 3D Image Annotation Tool Based on Touch Screen
+		An interactive system for image stereolization on touch screens
 	},
 	cauthor={张吉安},
 	eauthor={Zhangji'an},
@@ -67,7 +67,7 @@
     \include{chap/chapter4}
     \include{chap/chapter5}
 	% 结论。
-	%\include{chap/conclusion}
+	\include{chap/conclusion}
 
 	% 正文中的附录部分。
 	\appendix
