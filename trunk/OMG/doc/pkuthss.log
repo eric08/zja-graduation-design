@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.17)  27 MAY 2012 14:47
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2011.10.17)  28 MAY 2012 13:23
 entering extended mode
 **pkuthss.tex
 (C:\Users\zhangjian\Desktop\design\trunk\OMG\doc\pkuthss.tex
@@ -839,7 +839,7 @@ less on input line 18.
 
 ] [2]) [3] (C:\Users\zhangjian\Desktop\design\trunk\OMG\doc\chap/chapter2.tex
 ตฺถþีย
-<img/chapter2/flow1.pdf, id=128, 451.6875pt x 292.84406pt>
+<img/chapter2/flow1.pdf, id=129, 451.6875pt x 292.84406pt>
 File: img/chapter2/flow1.pdf Graphic file (type pdf)
 
 <use img/chapter2/flow1.pdf>
@@ -856,7 +856,7 @@ less on input line 14.
 
 
  <C:/Users/zhangjian/Desktop/design/trunk/OMG/doc/img/chapter2/flow1.pdf>]
-<img/chapter2/depth.pdf, id=151, 453.19313pt x 229.60782pt>
+<img/chapter2/depth.pdf, id=152, 453.19313pt x 229.60782pt>
 File: img/chapter2/depth.pdf Graphic file (type pdf)
 
 <use img/chapter2/depth.pdf>
@@ -879,7 +879,7 @@ LaTeX Warning: Reference `fig:depth2.2' on page 5 undefined on input line 30.
 
 LaTeX Warning: Reference `fig:depth2.2' on page 6 undefined on input line 33.
 
-<img/chapter2/struct1.pdf, id=162, 430.60875pt x 155.07938pt>
+<img/chapter2/struct1.pdf, id=163, 430.60875pt x 155.07938pt>
 File: img/chapter2/struct1.pdf Graphic file (type pdf)
 
 <use img/chapter2/struct1.pdf>
@@ -927,7 +927,7 @@ LaTeX Warning: Reference `sec:2.2' on page 9 undefined on input line 29.
 LaTeX Warning: Reference `fig:labelstruct' on page 9 undefined on input line 29
 .
 
-<img/chapter3/labelstruct.pdf, id=227, 472.01344pt x 347.04657pt>
+<img/chapter3/labelstruct.pdf, id=228, 472.01344pt x 347.04657pt>
 File: img/chapter3/labelstruct.pdf Graphic file (type pdf)
 
 <use img/chapter3/labelstruct.pdf> [9 <C:/Users/zhangjian/Desktop/design/trunk/
@@ -939,7 +939,7 @@ put line 49.
 
 LaTeX Warning: Reference `fig:graphcut' on page 10 undefined on input line 49.
 
-<img/chapter3/graphcuts.pdf, id=251, 847.66687pt x 249.18094pt>
+<img/chapter3/graphcuts.pdf, id=252, 847.66687pt x 249.18094pt>
 File: img/chapter3/graphcuts.pdf Graphic file (type pdf)
 
 <use img/chapter3/graphcuts.pdf>
@@ -950,11 +950,11 @@ undefined on input line 58.
 
 LaTeX Warning: Reference `fig:scissors' on page 10 undefined on input line 58.
 
-<img/chapter3/Scissors.pdf, id=252, 884.55469pt x 268.00125pt>
+<img/chapter3/Scissors.pdf, id=253, 884.55469pt x 268.00125pt>
 File: img/chapter3/Scissors.pdf Graphic file (type pdf)
 
 <use img/chapter3/Scissors.pdf>
-<img/chapter3/cut.pdf, id=253, 331.2375pt x 368.1253pt>
+<img/chapter3/cut.pdf, id=254, 331.2375pt x 368.1253pt>
 File: img/chapter3/cut.pdf Graphic file (type pdf)
 
 <use img/chapter3/cut.pdf>
@@ -981,7 +981,7 @@ LaTeX Warning: Reference `cutlabel2' on page 11 undefined on input line 87.
 
 [11 <C:/Users/zhangjian/Desktop/design/trunk/OMG/doc/img/chapter3/Scissors.pdf>
  <C:/Users/zhangjian/Desktop/design/trunk/OMG/doc/img/chapter3/cut.pdf>]
-<img/chapter3/cut2.pdf, id=303, 308.65312pt x 268.75406pt>
+<img/chapter3/cut2.pdf, id=304, 308.65312pt x 268.75406pt>
 File: img/chapter3/cut2.pdf Graphic file (type pdf)
 
 <use img/chapter3/cut2.pdf>
@@ -1006,7 +1006,7 @@ n/12.05/49
  []
 
 [12 <C:/Users/zhangjian/Desktop/design/trunk/OMG/doc/img/chapter3/cut2.pdf>]
-<img/chapter3/netflow.pdf, id=312, 301.8778pt x 295.1025pt>
+<img/chapter3/netflow.pdf, id=313, 301.8778pt x 295.1025pt>
 File: img/chapter3/netflow.pdf Graphic file (type pdf)
 
 <use img/chapter3/netflow.pdf>
