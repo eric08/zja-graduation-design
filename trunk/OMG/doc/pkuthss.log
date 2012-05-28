@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  28 MAY 2012 14:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.8)  28 MAY 2012 16:59
 entering extended mode
 **pkuthss.tex
 
@@ -803,17 +803,17 @@ c/img/pkuword.pdf>]
 (C:\Users\zhangjian\Desktop\design\zja-graduation-design\trunk\OMG\doc\chap/abs
 tract.tex
 Package CJKpunct Info: punctuation spaces for family 'zhhei' do not exist. Use 
-family 'def' instead. on input line 17.
+family 'def' instead. on input line 14.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 19.
+less on input line 16.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \begin{eabstract}
+l.16 \begin{eabstract}
                        [1
 
 
@@ -1229,10 +1229,10 @@ Package rerunfilecheck Info: Checksums for `pkuthss.out':
 (rerunfilecheck)             After:  8B1F877ED4C51ED6E18D99BF878B6656;2283.
  ) 
 Here is how much of TeX's memory you used:
- 12845 strings out of 494045
- 200161 string characters out of 3153701
- 279356 words of memory out of 3000000
- 15561 multiletter control sequences out of 15000+200000
+ 12842 strings out of 494045
+ 200107 string characters out of 3153701
+ 279372 words of memory out of 3000000
+ 15558 multiletter control sequences out of 15000+200000
  143435 words of font info for 309 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  47i,16n,51p,826b,1173s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1282,7 +1282,7 @@ ublic/lm/lmr6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/CTEX/MiKTe
 X/fonts/type1/public/lm/lmr9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy10.p
 fb><D:/CTEX/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/CTEX/MiKTeX/fonts/type1/
 public/lm/lmtt12.pfb><D:/CTEX/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on pkuthss.pdf (39 pages, 3378880 bytes).
+Output written on pkuthss.pdf (39 pages, 3377271 bytes).
 PDF statistics:
  1106 PDF objects out of 1200 (max. 8388607)
  127 named destinations out of 1000 (max. 500000)
