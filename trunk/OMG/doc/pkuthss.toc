@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}标注模型的设计}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}基于触摸屏的标注模型}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}前景标注方法}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}标注中使用的算法简介}{12}{section.3.3}
+\contentsline {section}{\numberline {3.3}标注模型中涉及的算法简介}{12}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Graph Cuts算法}{13}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Intelligent Scissors算法}{14}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}标注工具的软件模型设计}{17}{chapter.4}
